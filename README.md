@@ -1,4 +1,3 @@
-# hackuc
-The 2016 hackuc website.
+# HackUC 2016
 
 Official 2016 HackUC hackathon website.
