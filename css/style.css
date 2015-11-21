@@ -58,7 +58,19 @@ p {
     border: 0;
     -webkit-box-shadow: none;
             box-shadow: none;
-  }
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;
+}
+.hidden {
+  display: none !important;
+}
 #background{
 
  }
