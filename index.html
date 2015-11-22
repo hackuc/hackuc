@@ -2,33 +2,54 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official UCVTS hackathon. HackUC II Website. One of the first high school hackathons.">
     <meta name="author" content="HackUC">
 
+    <title>HackUC - UCVTS Hackathon for High Schoolers</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+
+    <link href="css/hackuc.css" rel="stylesheet">
+
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="css/style.css" rel="stylesheet">
-    <title>HackUC - UCVTS Hackathon for High Schoolers</title>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-    
-<body>
-	<div id="background">
-	<nav class="navbar" role="navigation">
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                       <span class="light">Hack</span>UC
                 </a>
             </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a href="#page-top"></a>
-                    </li>	
+                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -49,16 +70,139 @@
                     </li>
                 </ul>
             </div>
-            
+            <!-- /.navbar-collapse -->
         </div>
-
+        <!-- /.container -->
     </nav>
-		<div class="container">
-		</div>
-    <h1>HackUC 2016</h1>
-    
-    </div>
-</body>
 
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">HackUC</h1>
+                        <p class="intro-text">Find Your Spark</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="container">
+        <div class="row">
+              <div class="row subtitle-row">
+<h1 class="col-12 font-semibold">FAQ</h1>
+
+                <div class="col-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">How much is HackUC going to cost?</h3>
+                    <h3 class="font-thin justify-text">HackUC is completely, 100% free. We want to spread Computer Science Education, and Education should always be free. Come to learn and have free food!</h3>
+                </div><!-- /col12 -->
+                <div class="col-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I don't know how to code, should I still come?</h3>
+                    <h3 class="font-thin justify-text">Of course you should come! HackUC aims to teach everyone more about Computer Programming, even if you haven't coded a single thing in your life. Our goal is to have you leave with a working application that you build yourself! Check <a class="with-hover-text" target="_blank" href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601">this</a> out for more info!</h3>
+                </div><!-- /col12 -->           
+                    <div class="col-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">What should I bring?</h3>
+                    <h3 class="font-thin justify-text">Bring your laptop, chargers, power strips (if you can), school ID, and an attitude to learn! We'll be providing everything else, just bring anything you need to feel comfortable over 12 hours.</h3>
+                                </div><!-- /col12 -->
+            </div><!-- /row -->
+        <div class="col-12 col-lg-4 col-sm-6">
+
+                <h3 class="font-semibold justify-text">I think I know someone who would be willing to sponsor, is that ok?</h3>
+                <h3 class="font-thin justify-text">Of course that's ok! Let them know to email us at <a class="with-hover-text" target="_blank" href="mailto:sponsor@hackuc.com">sponsor@hackuc.com</a> and we'll get back to them as soon as possible.</h3>
+            </div><!-- /col12 --><div class="col-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I'm not a student, but I want to help out!</h3>
+                    <h3 class="font-thin justify-text">Perfect! HackUC always needs more mentors, and if you're able to help anyone out please contact us at <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a> and we'll get back to you as soon as possible! We need all the help we can get, so no matter what your specialty, please help out!</h3>
+
+                </div><!-- /col12 --><div class="col-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I have more questions!</h3>
+                    <h3 class="font-thin justify-text">We knew you'd ask this, for any other questions that weren't answered, feel free to email <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a> and we'll get back to you as soon as we can.</h3>
+                </div><!-- /col12 -->
+            </div><!-- /row -->
+            
+        </div><!-- /container -->
+    </div><!-- /slide2 -->
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="waiver" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                 <div class="row subtitle-row">
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+                <div class="col-12 col-sm-10 font-light">You Must Have A Release Waiver<br><a class="with-hover-text link" target="_blank" href="http://www.hackuc.com/hackucwaiver.pdf" target="new">Download Here</a></div>
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div><!-- /row -->
+
+            </div><!-- /row -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="register" class="container content-section text-center">
+        <div class="container">
+        <div class="row">
+        </div></div></section>
+
+
+     <section id="schedule" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                 
+                <div class="col-sm-1 hidden-sm">&nbsp;</div>
+            </div><!-- /row -->
+
+            </div><!-- /row -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="sponsors" class="container content-section text-center">
+        <div class="container">
+        <div class="row">
+        </div></div></section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2">
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div id="map"></div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; HackUC</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/hackuc.js"></script>
+
+</body>
 
 </html>
