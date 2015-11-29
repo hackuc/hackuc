@@ -1,8 +1,4 @@
-/*!
- * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
- * Code licensed under the Apache License v2.0.
- * For details, see http://www.apache.org/licenses/LICENSE-2.0.
- */
+
  @import url(//fonts.googleapis.com/css?family=Titillium+Web);
 
 .font-thin {
@@ -24,6 +20,11 @@
 
 * {
     position: relative;
+}
+canvas{
+    position:absolute;
+
+    z-index: -1000;
 }
 body {
     width: 100%;
@@ -167,8 +168,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-
-    background-color: #333;
+    background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -202,8 +202,11 @@ a:focus {
         font-size: 26px;
     }
 }
-
+#head{
+    margin-top:30px;
+}
 .btn-circle {
+    
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -278,7 +281,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 140px;
+    padding-top: 100px;
+
 }
 
 .download-section {
@@ -292,7 +296,14 @@ a:focus {
     background-size: cover;
     -o-background-size: cover;
 }
-
+.contact-section{
+ 
+    background-color:#333;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
 .btn {
     border-radius: 0;
     text-transform: uppercase;
@@ -339,13 +350,7 @@ ul.banner-social-buttons {
     }
 }
 
-footer {
-    padding: 50px 0;
-}
 
-footer p {
-    margin: 0;
-}
 
 ::-moz-selection {
     text-shadow: none;

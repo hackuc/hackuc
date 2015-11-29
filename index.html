@@ -67,13 +67,16 @@
      
     </nav>
 
+   <canvas id="myCanvas"></canvas>
    <header class="intro">
         <div class="intro-body">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-8 col-md-offset-2" id="head">
                         <h1 class="brand-heading">HackUC</h1>
+                        <br>
                         <p class="intro-text">Find Your Spark</p>
+                        <br><br>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -83,6 +86,7 @@
         </div>
     </header>
 
+        
     <section id="about" class="container content-section text-center">
         <div class="container">
         <div class="row">
@@ -167,16 +171,22 @@
         </div>
     </section>
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-              <br><h1>Contact info</h1><br><br><br><br><br><br><br><br><br><br>
+    <section id="contact" class="content-section text-center">
+        <div class="download-section">
+            <div class="container">
+                 <h1>Contact</h1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                
+            </div>
+
+            </div>
+                </div>
             </div>
         </div>
     </section>
 
     <footer>
-        <div class="container text-center">
+        <div class="container content-section text-center black">
+
             <p>Copyright &copy; HackUC</p>
         </div>
     </footer>
@@ -185,6 +195,16 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.easing.min.js"></script>
     <script src="js/hackuc.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/trianglify/0.4.0/trianglify.min.js"></script>
+<script>
+    var pattern = Trianglify({
+        width: window.innerWidth,
+        height: window.innerHeight,
+        variance: "0.76", seed: '0str0',
+        cell_size: 100,
+        x_colors: "YlOrBr"
+    });
+    pattern.canvas(document.getElementById("myCanvas"))</script>
 
 </body>
 
