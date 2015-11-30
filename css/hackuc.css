@@ -168,7 +168,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-
+    background: url("http://adnostic.io/wp-content/uploads/2014/05/trianglify-background-red.png") !important;
     background-color: transparent;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -179,7 +179,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    background-image: url("http://adnostic.io/wp-content/uploads/2014/05/trianglify-background-red.png")
+    
 }
 
 .intro .intro-body .brand-heading {
@@ -284,8 +284,8 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
-
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
     
@@ -294,7 +294,6 @@ a:focus {
     padding: 50px 0;
     color: #fff;
     
-    background-color: #333;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -302,14 +301,12 @@ a:focus {
 }
 .contact-section{
  
-    background-color:#333;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 .btn {
-    border-radius: 0;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
@@ -323,7 +320,12 @@ a:focus {
     color: #42dca3;
     background-color: transparent;
 }
-
+.info{
+    display: inline-block;
+    width:200px;
+    margin-top:50px;
+    border-radius: 20px;
+}
 .btn-default:hover,
 .btn-default:focus {
     border: 1px solid #42dca3;
@@ -378,4 +380,16 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
+}
+#waiver{
+    background: url("http://static1.squarespace.com/static/52ce3f78e4b00cd70d08c37f/t/5371d5a7e4b0f1679c048dc1/1399969192595/Trianglify");
+    background-size:cover;
+}
+#schedule{
+    background: url("http://www.micro-greffe-cheveux.net/wp-content/uploads/2014/04/trianglify-background.png");
+    background-size:cover;
+}
+#contact{
+    background: url("http://eightlayers.com/wp-content/uploads/2015/04/trianglify-background-generator-1.png");
+    background-size:cover;
 }
