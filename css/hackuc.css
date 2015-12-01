@@ -165,11 +165,10 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url("http://adnostic.io/wp-content/uploads/2014/05/trianglify-background-red.png") !important;
-    background-color: transparent;
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
