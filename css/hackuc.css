@@ -53,20 +53,20 @@ h6 {
 
 p {
     margin: 0 0 25px;
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 1.6;
     }
 }
 
 a {
-    color: #42dca3;
+    color: #92fcf0;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -75,7 +75,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #40e8bb;
 }
 
 .light {
@@ -290,8 +290,7 @@ a:focus {
     
 .download-section {
     width: 100%;
-    padding: 50px 0;
-    color: #fff;
+    color: #000;
     
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -318,6 +317,12 @@ a:focus {
     border: 1px solid #42dca3;
     color: #42dca3;
     background-color: transparent;
+}
+.btn-white{
+    color:black;
+    background-color: white;
+    border: 1px solid black;
+
 }
 .info{
     display: inline-block;
@@ -397,9 +402,13 @@ body {
     background-size:cover;
 }
 #register{
-
+    
+    background-color:#1aa851;
+    background-size:cover;
 }
 #sponsors{
+     background-color:#d0a9fc;
+    background-size:cover;
 
 }
 #circle{
@@ -426,4 +435,98 @@ body {
     border: 2px solid black;
     border-radius: 20px;
     margin-left: 35%;
+}
+.hacktable {
+    margin:0px;padding:0px;
+    width:80%;
+    border: none;
+    margin-left: 10%;
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px;
+    
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px;
+    
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius:10px;
+    
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px;
+}
+.hacktable table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width:80%;
+    height:80%;
+    margin-left:10%;
+    padding:0px;
+}
+.hacktable tr:last-child td:last-child {
+    -moz-border-radius-bottomright:10px;
+    -webkit-border-bottom-right-radius:10px;
+    border-bottom-right-radius:10px;
+}
+.hacktable table tr:first-child td:first-child {
+    -moz-border-radius-topleft:10px;
+    -webkit-border-top-left-radius:10px;
+    border-top-left-radius:10px;
+}
+.hacktable table tr:first-child td:last-child {
+    -moz-border-radius-topright:10px;
+    -webkit-border-top-right-radius:10px;
+    border-top-right-radius:10px;
+}.hacktable tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:10px;
+    -webkit-border-bottom-left-radius:10px;
+    border-bottom-left-radius:10px;
+}.hacktable tr:hover td{
+    
+}
+.hacktable tr:nth-child(odd){ background-color:#ffffff; }
+.hacktable tr:nth-child(even)    { background-color:#94c8fc; }.hacktable td{
+    vertical-align:middle;
+    
+    
+    text-align:center;
+    padding:14px;
+    font-size:10px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.hacktable tr:last-child td{
+    border-width:0px 1px 0px 0px;
+}.hacktable tr td:last-child{
+    border-width:0px 0px 1px 0px;
+}.hacktable tr:last-child td:last-child{
+    border-width:0px 0px 0px 0px;
+}
+.hacktable tr:first-child td{
+        background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
+
+    background-color:#ffffff;
+    
+    text-align:center;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:bold;
+    color:#000000;
+}
+.hacktable tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
+    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
+
+    background-color:#ffffff;
+}
+.hacktable tr:first-child td:first-child{
+    border-width:0px 0px 1px 0px;
+}
+.hacktable tr:first-child td:last-child{
+    border-width:0px 0px 1px 1px;
 }
