@@ -530,3 +530,9 @@ body {
 .hacktable tr:first-child td:last-child{
     border-width:0px 0px 1px 1px;
 }
+
+.contactimg{
+ height: 100px;
+ width: 60px;
+}
+}
