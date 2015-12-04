@@ -207,7 +207,7 @@ a:focus {
 }
 #head{
     margin-top:30px;
-    margin-bottom:30px;
+    margin-bottom:40px;
 }
 @media screen and (max-width:600px){
     .down{
