@@ -11,7 +11,7 @@ We will use this file after finishing the site. Post all bugs here.
 - Optimize when finished.
 
 
-STILL TODO:
+##STILL TODO:
 
 1. Optimize CSS/JQuery
 
