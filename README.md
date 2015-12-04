@@ -2,8 +2,11 @@
 
 Official 2016 HackUC hackathon website.
 
-I decided to use bootstrap to create a website draft. For now, it's quite slow right now but the code can be cleaned up using chrome dev tools when I'm done, leaving a file with only css used by the html and js.
+Pretty much done. Look at TODO for things to do still.
 
-It's in a seperate branch for now, because I know Jason was scared that bootstrap would slow down the site. It should be okay, bootstrap can be easily cleaned up and also BCA uses bootstrap.
+At this point, it can be launched. 
 
-The background is grey for now as a placeholder until a background is decided. Logo is not added either, and I haven't done sponsors, contact, or schedule
+To see it: 1. fork/download zip file
+2. click index.html and open in chrome
+
+
