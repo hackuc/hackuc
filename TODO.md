@@ -12,6 +12,7 @@ We will use this file after finishing the site. Post all bugs here.
 
 
 STILL TODO:
+
 1. Optimize CSS/JQuery
 
 2. Add slider to timeline
