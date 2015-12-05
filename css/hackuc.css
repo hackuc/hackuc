@@ -570,3 +570,6 @@ body {
 #top{
     margin-top:30%;
 }
+#second{
+    display:none;
+}
