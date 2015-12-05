@@ -13,14 +13,12 @@ We will use this file after finishing the site. Post all bugs here.
 
 ##STILL TODO:
 
-1. Optimize CSS/JQuery
 
-2. Add slider to timeline
 
-3. SEO
+5. Add Sponsors/Schedule/Registration when they're ready
 
-4. Download all images and have them from inside files as opposed to links
+6. MyMLH Server Side using API
 
-5. Add Sponsors/Schedule/Registration when come
+7. Check all browsers
 
-6. Namecheap: enter email for date of registration opening
+8. Launch
