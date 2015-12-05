@@ -12,6 +12,26 @@ $(window).scroll(function() {
         $(".navbar-fixed-top").removeClass("top-nav-collapse");
     }
 });
+//jQuery for timeline
+                $('#2016').click(function(e) {
+                    e.preventDefault();
+                    $("#2015").removeClass("active");
+                    $("#2016").addClass("active");
+                    $('#circle').animate({
+                        'left' : '51.7%'    
+                    });                    
+                });
+                $('#2015').click(function(e) {
+                    e.preventDefault();
+                    $("#2016").removeClass("active");
+                    $("#2015").addClass("active");
+                    $('#circle').animate({
+                        'left' : '0px'
+                    });                    
+                });
+
+
+
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {

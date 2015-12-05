@@ -168,7 +168,7 @@ a:focus {
     height: auto;
     text-align: center;
     color: #fff;
-    background: url("http://adnostic.io/wp-content/uploads/2014/05/trianglify-background-red.png") !important;
+    background: url("../img/red.png") !important;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -403,15 +403,15 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: url("http://static1.squarespace.com/static/52ce3f78e4b00cd70d08c37f/t/5371d5a7e4b0f1679c048dc1/1399969192595/Trianglify");
+    background: url("../img/green.png");
     background-size:cover;
 }
 #schedule{
-    background: url("http://www.micro-greffe-cheveux.net/wp-content/uploads/2014/04/trianglify-background.png");
+    background: url("../img/blue.png");
     background-size:cover;
 }
 #contact{
-    background: url("http://eightlayers.com/wp-content/uploads/2015/04/trianglify-background-generator-1.png");
+    background: url("../img/pink.png");
     background-size:cover;
 }
 #about{
@@ -436,8 +436,8 @@ body {
     -webkit-border-radius: 50px;
     border-radius: 50px;
     border: 4px solid black;
-    margin-top: -4%;
-    margin-left: 47%;
+    margin-top: -2%;
+    margin-left: 22.4%;
 }
 #line{
     width: 80%;
@@ -446,12 +446,13 @@ body {
     background: black;
 }
 .boxed{
-    width: 30%;
-    margin-top: 20px;
+    width: 40%;
+    margin-top: 20px !important;
     padding: 10px 10px 10px 10px;
     border: 2px solid black;
     border-radius: 20px;
-    margin-left: 35%;
+    display: block;
+    margin: auto;
 }
 .hacktable {
     margin:0px;padding:0px;
