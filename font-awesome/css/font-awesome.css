@@ -21,10 +21,10 @@
 }
 /* makes the font 33% larger relative to the icon container */
 
-.fa-navicon:before,
-.fa-reorder:before,
+
 .fa-bars:before {
   content: "\f0c9";
+  color:white;
 }
 .fa-angle-double-down:before {
   content: "\f103";

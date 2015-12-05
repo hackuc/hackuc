@@ -66,7 +66,7 @@ p {
 }
 
 a {
-    color: #92fcf0;
+    color: #3498DB;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -428,6 +428,12 @@ body {
     background-size:cover;
 
 }
+#footer{
+      background-color:#00000f;
+    background-size:cover;
+    padding-top:40px;
+    padding-bottom: 40px;
+}
 #circle{
     width: 40px;
     height: 40px;
@@ -572,4 +578,11 @@ body {
 }
 #second{
     display:none;
+}
+.foot{
+    font-size: 16px;
+    margin-left:40px;
+}
+.footclass{
+    margin-left:-80px;
 }
