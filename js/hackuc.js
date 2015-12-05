@@ -18,6 +18,7 @@ $(window).scroll(function() {
                     if($("#2015").hasClass("active")){
                         $("#first").toggle();
                         $("#second").toggle();
+                        $(".boxedbutton").toggle();
                     }
                     $("#2015").removeClass("active");
                     $("#2016").addClass("active");
@@ -31,6 +32,7 @@ $(window).scroll(function() {
                     if($("#2016").hasClass("active")){
                         $("#first").toggle();
                         $("#second").toggle();
+                        $(".boxedbutton").toggle();
                     }
                     $("#2016").removeClass("active");
                     $("#2015").addClass("active");
