@@ -1,4 +1,4 @@
-
+@import url(https://fonts.googleapis.com/css?family=PT+Sans);
  @import url(//fonts.googleapis.com/css?family=Titillium+Web);
 
 .font-thin {
@@ -184,6 +184,8 @@ a:focus {
 
 .intro .intro-body .brand-heading {
     font-size: 30px;
+    font-family: PT Sans;
+    text-transform: none !important;
 }
 
 .intro .intro-body .intro-text {
