@@ -3,7 +3,7 @@
 
 .font-thin {
     font-family: "Titillium Web", sans-serif;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .font-semibold {
@@ -66,7 +66,11 @@ p {
 }
 
 a {
+<<<<<<< HEAD
     color: #3498DB;
+=======
+    color: teal;
+>>>>>>> Made some aesthetic changes
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -80,7 +84,7 @@ a:focus {
 }
 
 .light {
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .navbar-custom {
@@ -168,12 +172,10 @@ a:focus {
     height: auto;
     text-align: center;
     color: #fff;
-    background: url("../img/red.png") !important;
-
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
+    background-image: url("../img/red.png");
     background-size: cover;
-    -o-background-size: cover;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
 }
 
 .intro .intro-body {
@@ -341,11 +343,21 @@ a:focus {
     border: 1px solid black;
 
 }
+.infoContainer {
+    display:flex;
+    width:100%;
+    height: 50vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25%;
+}
 .info{
     display: inline-block;
-    width:220px;
-    margin-top:50px;
+    width:250px;
     border-radius: 20px;
+    padding: 15px 0;
 }
 .btn-default:hover,
 .btn-default:focus {
@@ -375,9 +387,14 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+    
 }
 
-
+@media(max-width:990px) {
+    .infoContainer {
+        margin-top: 10% !important;
+    }
+}
 
 ::-moz-selection {
     text-shadow: none;
@@ -434,6 +451,10 @@ body {
     padding-top:40px;
     padding-bottom: 40px;
 }
+
+.blurbdescription {
+    line-height: 1.4;
+}
 #circle{
     width: 40px;
     height: 40px;
@@ -452,13 +473,14 @@ body {
     background: black;
 }
 .boxed{
-    width: 40%;
+    width: 50%;
     margin-top: 20px !important;
-    padding: 10px 10px 10px 10px;
+    padding: 15px;
     border: 2px solid black;
     border-radius: 20px;
     display: block;
     margin: auto;
+    font-size: 16px;
 }
 .hacktable {
     margin:0px;padding:0px;
@@ -571,10 +593,7 @@ body {
     margin:auto;
     display:block;
     margin-bottom:5%;
-    margin-top:10%;
-}
-#top{
-    margin-top:30%;
+    margin-top:20%;
 }
 #second{
     display:none;
@@ -585,4 +604,13 @@ body {
 }
 .footclass{
     margin-left:-80px;
+}
+
+/*Bootstrap overrides*/
+.glyphicon {
+    font-size: 20px;
+    vertical-align:text-bottom;
+}
+.row {
+    margin:0 !important;
 }

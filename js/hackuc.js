@@ -42,7 +42,7 @@ $(window).scroll(function() {
                     });                    
                 });
 
-
+//Add an event after clicking one of the three info buttons
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
