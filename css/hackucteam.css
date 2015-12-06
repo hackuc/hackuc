@@ -74,7 +74,8 @@ span.title {
 .icons {
     display: block;
     float: right;
-    margin-right: 25px;
+    margin-top: 40px;
+    margin-right: 120px;
 }
 
 img.icon {
