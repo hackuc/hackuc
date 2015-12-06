@@ -74,7 +74,8 @@ span.title {
 .icons {
     display: block;
     float: right;
-    margin-right: 25px;
+    margin-top: 40px;
+    margin-right: 140px;
 }
 
 img.icon {
@@ -129,4 +130,7 @@ img.icon {
 .back {
     text-align: center;
     transform: rotateY(180deg);
+}
+.hidden{
+    visibility: hidden;
 }
