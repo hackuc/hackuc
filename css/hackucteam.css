@@ -96,8 +96,8 @@ img.icon {
 
 .flip-container, .front, .back {
     margin-top:10px;
-    width: 320px;
-    height: 480px;
+    width: 340px;
+    height: 160px;
 }
 
 /* flip speed goes here */
