@@ -10,6 +10,9 @@ h1 {
     text-align:center;
 }
 
+p {
+    margin: 0.5em;
+}
 div.cardsContainer {
     display: flex;
     width: 80%;
@@ -28,6 +31,8 @@ div.card {
     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
     margin: 25px 0;
     border-radius: 3px;
+    opacity: 0;
+    transition: all 0.25s linear;
 }
 
 /* Dog Ear Effect doesn't work cause of box shadow
@@ -73,9 +78,7 @@ span.title {
 
 .icons {
     display: block;
-    float: right;
-    margin-top: 40px;
-    margin-right: 140px;
+    margin-top: 10px;
 }
 
 img.icon {
@@ -130,7 +133,17 @@ img.icon {
 .back {
     text-align: center;
     transform: rotateY(180deg);
+    padding-top: 10px;
+    font-size: 12px;
 }
 .hidden{
     visibility: hidden;
+}
+
+.is-visible {
+    opacity: 1 !important;
+}
+
+.question {
+    font-weight: 700;
 }
