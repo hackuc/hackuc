@@ -98,6 +98,7 @@ img.icon {
     margin-top:10px;
     width: 340px;
     height: 160px;
+    margin-right:10px;
 }
 
 /* flip speed goes here */
@@ -126,5 +127,6 @@ img.icon {
 
 /* back, initially hidden pane */
 .back {
+    text-align: center;
     transform: rotateY(180deg);
 }
