@@ -12,6 +12,8 @@ To see it:
 
 2. click index.html and open in chrome
 
-4. Enter any bugs/suggestions in the TODO.md
+3.
 
+4. Enter any bugs/suggestions in the TODO.md or notify the team in chat.
 
+If you don't want to download the site, go to http://hackuc.github.io/hackuc/ to see the site (may not be most up-to-date).

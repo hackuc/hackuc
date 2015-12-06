@@ -9,7 +9,7 @@ We will use this file after finishing the site. Post all bugs here.
 
 ##CSS
 - Optimize when finished.
-
+-Cut down on the bootrstrap.
 
 ##STILL TODO:
 
@@ -21,4 +21,4 @@ We will use this file after finishing the site. Post all bugs here.
 
 7. Check all browsers
 
-8. Launch
+8. Ensure that mobile is working properly. Timeline can be completely hidden for mobile site.
