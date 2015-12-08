@@ -1,9 +1,5 @@
 html, body {
     font-family: "Titillium Web", sans-serif;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
     background-color: #fffb91;
 }
 h1 {
@@ -15,7 +11,7 @@ p {
 }
 div.cardsContainer {
     display: flex;
-    width: 80%;
+    width: 90%;
     margin: auto;
     flex-wrap: wrap;
     flex-direction: row;
@@ -26,39 +22,27 @@ div.cardsContainer {
 div.card {
     position: relative;
     background-color: #FFF;
-    width: 340px;
-    height: 160px;
+    width: 380px;
+    height: 235px;
     box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
-    margin: 25px 0;
     border-radius: 3px;
     opacity: 0;
     transition: all 0.25s linear;
+    display:block;
+    margin:auto;
+
+    margin-top:25px;
 }
 
-/* Dog Ear Effect doesn't work cause of box shadow
-div.card::before, div.card::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-div.card::after {
-    border-top: 20px solid transparent;
-    border-left: 20px solid rgba(0,0,0,0.08);
-}
-div.card::before {
-    border-bottom: 20px solid transparent;
-    border-right: 20px solid orange;
-}
-*/
+
 
 img.profilePic {
-    height: 100px;
-    width: 100px;
-    border-radius: 50px;
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
     border: 2px solid #000;
-    margin-top: 15px;
-    margin-left: 25px;
+    margin-top: 35px;
+    margin-left: 30px;
     float: left;
 }
 
@@ -66,13 +50,13 @@ span.name {
     font-weight: 700;
     display:block;
     float: right;
-    margin: 25px 15px 5px;
+    margin: 55px 35px 5px 0px;
 }
 
 span.title {
     display:block;
     float:right;
-    margin: 0 15px 5px;
+    margin: 0px 25px 5px 0px;
     font-size:15px;
 }
 
@@ -100,8 +84,8 @@ img.icon {
 
 .flip-container, .front, .back {
     margin-top:10px;
-    width: 340px;
-    height: 160px;
+    width: 380px;
+    height: 200px;
     margin-right:10px;
 }
 
@@ -128,22 +112,72 @@ img.icon {
     /* for firefox 31 */
     transform: rotateY(0deg);
 }
+.fa-chevron-left:before {
+  content: "\f053";
+}
 
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 /* back, initially hidden pane */
 .back {
     text-align: center;
     transform: rotateY(180deg);
-    padding-top: 10px;
     font-size: 12px;
+    margin-top:0px;
 }
 .hidden{
     visibility: hidden;
 }
-
+@media screen and (max-width:800px){
+    .hidden{
+        display: none !important;
+    }
+}
 .is-visible {
     opacity: 1 !important;
 }
-
-.question {
-    font-weight: 700;
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  position:fixed;
+  z-index: 5;
+  margin-left:2px;
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default.focus,
+.btn-default:active,
+.btn-default.active,
+.open > .dropdown-toggle.btn-default {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
 }
