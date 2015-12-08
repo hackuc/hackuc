@@ -2,17 +2,384 @@
 <html lang="en">
 
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="description" content="The official UCVTS hackathon. HackUC II Website. One of the first high school hackathons.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The official 2016 UCVTS hackathon, being held on Jun 4-5 for 24 hours. HackUC II Website. One of the first high school hackathons. ">
     <meta name="author" content="HackUC">
 
-    <title>HackUC - UCVTS Hackathon for High Schoolers</title>
+    <title>HackUC - UCVTS 24 Hour Hackathon for High Schoolers</title>
+
+    <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--<link href="font-awesome/css/font-awesome.css" rel="stylesheet" type="text/css">-->
+    <link href="css/hackuc.css" rel="stylesheet">
+
+
 </head>
-    
-<body>
-    <h1>HackUC 2016</h1>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                      <span class="light">Hack</span>UC
+                </a>
+            </div>
+
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#faq">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#register">Register</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+           
+        </div>
+     
+    </nav>
+   
+   <div class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+
+                        <br>
+                        <img class="img-responsive text-center logoimg" alt="logo" src="logo.png"/>
+                        <h1 class="brand-heading">HackUC</h1>
+                        <p class="intro-text">Find Your Spark</p>
+                        
+                        </div>
+                        <div class="col-md-6">
+                        <div class="infoContainer">
+                        <button type="button" class="btn btn-success info"><span class="glyphicon glyphicon-calendar" aria-hidden="true"> </span>&nbsp; TBD</button>
+                        <br>
+                        <button type="button" class="btn btn-info info"><span class="glyphicon glyphicon-time" aria-hidden="true"> </span>&nbsp;  TBD</button>
+                        <br>
+
+                        <button type="button" class="btn btn-warning info"><span class="glyphicon glyphicon-map-marker" aria-hidden="true"> </span> &nbsp; UCVTS in NJ</button>
+
+                        </div>
+                        </div>
+                        <div class="col-md-8 col-md-offset-2 down">
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    <section id="about" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-12 font-semibold">About</h2>
+        <br>
+        <div class="col-sm-12 text-center">
+        <h3 class="font-thin blurbdescription"><strong>HackUC</strong> is a 24 hour high school <strong>hackathon</strong> held at <strong>Union County Vocational Technical Schools</strong>, a district composed of five schools spanning a variety of subjects from engineering to health, located in <strong>Scotch Plains, New Jersey</strong>. All high schoolers are welcome!</h3>
+        <br><br>
+        <div class="timeline">
+        <div class="row">
+        <div class="col-md-6 text-center">
+        <button class="btn btn-danger active" id="2015">2015</button>
+        </div>
+        <div class="col-md-6 text-center">
+        <button class="btn btn-danger" id="2016">2016</button>
+        </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+        <div id="line"></div>
+        <div class="col-md-12 text-center">
+        <div id="circle"></div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 text-center">
+        <div class="font-thin boxed text-center" id="first">The first HackUC was twelve hours and held on June 22nd. It all started with a huge plan to encourage interest in technology and was a huge success thanks to both the mentors and the students. You can check out some of the projects at <a href="//hackuc.devpost.com"> hackuc.devpost.com.</a></div>
+        <div class="font-thin boxed text-center" id="second">HackUC II will be on June 4th to 5th, lasting for 24 hours. We've learned from the first hackathon and will make improvements. We envision a successful hackathon in which new and old hackers can come together and hack. Come make history with us!</div>
+        </div>
+
+        </div>
+        <br>
+        <div class="row">
+        <div class="col-md-6 text-center">
+        <div class="font-thin boxed text-center boxedbutton" id="students"><span class="glyphicon glyphicon-user">     </span>&nbsp&nbsp&nbsp    <strong>126 Participants</strong></div>
+        </div>
+        <div class="col-md-6 text-center">
+        <div class="font-thin boxed text-center boxedbutton" id="mentors"><span class="glyphicon glyphicon-education">     </span>&nbsp&nbsp&nbsp    <strong>6 Courses</strong></div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-6 text-center">
+        <div class="font-thin boxed text-center boxedbutton" id="students"><span class="glyphicon glyphicon-heart">     </span>&nbsp&nbsp&nbsp    <strong>37% Female</strong></div>
+        </div>
+        <div class="col-md-6 text-center">
+        <div class="font-thin boxed text-center boxedbutton" id="mentors"><span class="glyphicon glyphicon-star">     </span>&nbsp&nbsp&nbsp    <strong>90.8% New to Hackathons</strong></div>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+              <div class="row subtitle-row">
+<h2 class="col-md-12 font-semibold">FAQ</h2>
+
+                <div class="col-md-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">How much is HackUC going to cost?</h3>
+                    <h3 class="font-thin justify-text">HackUC is completely, 100% free. We want to spread Computer Science Education, and Education should always be free. Come to learn and have free food!</h3>
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I don't know how to code, should I still come?</h3>
+                    <h3 class="font-thin justify-text">Of course you should come! HackUC aims to teach everyone more about Computer Programming, even if you haven't coded a single thing in your life. Our goal is to have you leave with a working application that you build yourself! Check <a class="with-hover-text" target="_blank" href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601">this</a> out for more info!</h3>
+                </div>    
+                    <div class="col-md-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">What should I bring?</h3>
+                    <h3 class="font-thin justify-text">Bring your laptop, chargers, power strips (if you can), school ID, and an attitude to learn! We'll be providing everything else, just bring anything you need to feel comfortable over 12 hours.</h3>
+                                </div>
+            </div>
+        <div class="col-md-12 col-lg-4 col-sm-6">
+
+                <h3 class="font-semibold justify-text">I think I know someone who would be willing to sponsor, is that ok?</h3>
+                <h3 class="font-thin justify-text">Of course that's ok! Let them know to email us at <a class="with-hover-text" target="_blank" href="mailto:sponsor@hackuc.com">sponsor@hackuc.com</a> and we'll get back to them as soon as possible.</h3>
+            </div>
+            <div class="col-md-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I'm not a student, but I want to help out!</h3>
+                    <h3 class="font-thin justify-text">Perfect! HackUC always needs more mentors, and if you're able to help anyone out please contact us at <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a> and we'll get back to you as soon as possible! We need all the help we can get, so no matter what your specialty, please help out!</h3>
+
+                </div>
+                <div class="col-md-12 col-lg-4 col-sm-6">
+                    <h3 class="font-semibold justify-text">I have more questions!</h3>
+                    <h3 class="font-thin justify-text">We knew you'd ask this, for any other questions that weren't answered, feel free to email <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a> and we'll get back to you as soon as we can.</h3>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <section id="register" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-md-12 col-xs-12 col-sm-12 font-semibold">Ready to Register?</h2>
+        <br>
+        <!--<div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <p class="font-thin">Decided you want to be a part of this awesome event? Let's get you on the list! <br>Registration closes on either April 20th or when there is no more space.</p>
+        <br>
+        
+       
+        <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <a href="#"><button class="btn btn-default btn-lg btn-white"><span class="glyphicon glyphicon-pencil"></span>&nbsp; &nbsp; Register</button></a>
+        </div>-->
+        </div>
+        <br>
+        <h3 class="text-center">Coming Soon!</h3>
+
+        </div>
+        <br><br>
+        <!--<div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <h3>Don't forget to bring a <a href="http://hackuc.com/hackucwaiver.pdf">release waiver</a> to the event!</h3>
+        </div>
+
+        </div>-->
+
+        <br>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    </section>
+
+    <section id="schedule" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-md-12 col-xs-12 col-sm-12 font-semibold">Schedule</h2>
+        <br>
+        </div>
+        </div>
+        <br>
+        <div class="row"><h3 class="text-center">Coming Soon!</h3>
+        <!--
+        <div class="hacktable" >
+                <table>
+                    <tr>
+                        <td>
+                            Time
+                        </td>
+                        <td >
+                            Event
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td >
+                            
+                        </td>
+                        <td>
+                            
+                        </td>
+
+                    </tr>
+                </table>
+            </div>-->
+        </div>
+    </div>
+
+    </section>
+    <section id="sponsors" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-md-12 col-xs-12 col-sm-12 font-semibold">Thank you to all our sponsors!</h2>
+        <br>
+        <div class="row">
+        <br><br>
+        <p>Know someone who'd like to sponsor? Contact us at <a class="with-hover-text" target="_blank" href="mailto:sponsor@hackuc.com">sponsor@hackuc.com</a>!</p>
+    </div>
+    </div>
+    </div>
+    </section>
+    <section id="contact" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-md-12 col-xs-12 col-sm-12 font-semibold">Contact us</h2>
+        <br>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <p>Any other questions? Contact us at <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a>!</p>
+        </div>
+        </div>
+        <br><br><br>
+        <div class="row">
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 image"><a href="https://www.instagram.com/hackucvts/"><img class="img-responsive contactimg" alt="instagram" src="http://huboncampus.com/wp-content/themes/hub/images/social/instagram/instagram-4096-black.png"/></a>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 image"><a href="https://www.twitter.com/hackuc"><img class="img-responsive contactimg" alt="twitter" src="http://static1.squarespace.com/static/554ff464e4b04ac69cfb142f/5552702ee4b02fc9d3e84a04/555c8518e4b051f7c69c9e92/1432127355664/twitter%252Blogo.png"/></a>
+        </div>
+        <div class="col-md-4 col-xs-4 col-sm-4 col-lg-4 image"><a href="https://www.facebook.com/hackucvts"><img class="img-responsive contactimg" alt="facebook" src="http://static1.squarespace.com/static/52440ddbe4b03b33d728e5ea/54783adae4b0b93ff6fd1809/54783adae4b0b93ff6fd180f/1436269584376/iconmonstr-facebook-4-icon.png"/></a>
+        </div>
+        </div>
+    </div>
+    </section>
+    <section id="footer" class="text-center">
+    <div class="footclass">
+    <a class="foot" href="code.html">Code of Conduct</a><a class="foot" href="team.html">Team</a><a class="foot" href="images.html">Image Gallery</a>
+    </div>
+    </section>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/hackuc.js"></script>
+
 </body>
-    
+
 </html>
