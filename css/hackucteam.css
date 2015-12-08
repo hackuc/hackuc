@@ -75,7 +75,6 @@ img.icon {
 
 /*TODO: Flipping card */
 .flip-container {
-    perspective: 1000;
 }
     /* flip the pane when hovered */
     .flip-container:hover .flipper, .flip-container.hover .flipper {
