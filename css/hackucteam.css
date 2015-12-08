@@ -127,8 +127,10 @@ img.icon {
 .back {
     text-align: center;
     transform: rotateY(180deg);
-    font-size: 12px;
+    font-size: 11px;
     margin-top:0px;
+    box-sizing: border-box;
+    padding: 20px;
 }
 
 .is-visible {
