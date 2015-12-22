@@ -1,9 +1,14 @@
 html, body {
     font-family: "Titillium Web", sans-serif;
-    background-color: #fffb91;
+    background: url("../img/team.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 20px;
 }
 h1 {
     text-align:center;
+
+  margin-top:40px;
 }
 
 p {
@@ -139,6 +144,7 @@ img.icon {
 .btn {
   display: inline-block;
   padding: 6px 12px;
+  margin-top:-25px;
   margin-bottom: 0;
   font-size: 14px;
   font-weight: normal;
