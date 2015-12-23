@@ -94,7 +94,6 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
-    margin-right: 10%;
 }
 
 .navbar-custom .navbar-brand {
@@ -119,6 +118,10 @@ a:focus {
 .navbar-custom a {
     color: #fff;
 }
+.nav{
+
+    margin-left: -10%;
+}
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -130,6 +133,7 @@ a:focus {
     outline: 0;
     color: rgba(255,255,255,.8);
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li a:focus,
@@ -597,6 +601,14 @@ body {
     display:block;
     margin-bottom:5%;
     margin-top:20%;
+}
+.sponsorimg{
+    width:35%;
+    height:auto;
+    margin:auto;
+    display:block;
+    margin-bottom:2%;
+    margin-top:5%;
 }
 #second{
     display:none;
