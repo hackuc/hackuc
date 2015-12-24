@@ -59,7 +59,16 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+//Checkbox Check
 
+$('#checkbox').click(function(){
+    if (this.checked) {
+        $(".btn-register").removeClass("disabled");
+    }
+    if (!this.checked){
+        $('.btn-register').addClass("disabled");
+    }
+}); 
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

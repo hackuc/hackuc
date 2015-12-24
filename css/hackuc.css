@@ -63,7 +63,7 @@ p {
 }
 
 a {
-    color: #3498DB;
+    color: #086bad;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -629,3 +629,6 @@ body {
 .row {
     margin:0 !important;
 }
+
+
+
