@@ -62,10 +62,18 @@ $('.navbar-collapse ul li a').click(function() {
 //Checkbox Check
 
 $('#checkbox').click(function(){
-    if (this.checked) {
+    if (this.checked&& document.getElementById('checkboxdos').checked) {
         $(".btn-register").removeClass("disabled");
     }
-    if (!this.checked){
+    if (!(this.checked&& document.getElementById('checkboxdos').checked)){
+        $('.btn-register').addClass("disabled");
+    }
+}); 
+$('#checkboxdos').click(function(){
+    if (this.checked&& document.getElementById('checkbox').checked) {
+        $(".btn-register").removeClass("disabled");
+    }
+    if (!(this.checked&& document.getElementById('checkbox').checked)){
         $('.btn-register').addClass("disabled");
     }
 }); 
