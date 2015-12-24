@@ -18,13 +18,14 @@
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color:white;
 }
 /* makes the font 33% larger relative to the icon container */
 
 
 .fa-bars:before {
   content: "\f0c9";
-  color:white;
+  color: white !important;
 }
 .fa-angle-double-down:before {
   content: "\f103";

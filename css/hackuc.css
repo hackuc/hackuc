@@ -79,7 +79,15 @@ a:focus {
 .light {
     font-weight: 300;
 }
-
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white !important;
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -110,6 +118,10 @@ a:focus {
 .navbar-custom a {
     color: #fff;
 }
+.nav{
+
+    margin-left: -10%;
+}
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -121,6 +133,7 @@ a:focus {
     outline: 0;
     color: rgba(255,255,255,.8);
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li a:focus,
@@ -210,10 +223,9 @@ a:focus {
     margin-top:0px !important;
     margin-bottom:30px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .down{
         visibility: hidden;
-        display:none;
     }
     .timeline{
          visibility: hidden;
@@ -589,6 +601,14 @@ body {
     display:block;
     margin-bottom:5%;
     margin-top:20%;
+}
+.sponsorimg{
+    width:35%;
+    height:auto;
+    margin:auto;
+    display:block;
+    margin-bottom:2%;
+    margin-top:5%;
 }
 #second{
     display:none;
