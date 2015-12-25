@@ -77,6 +77,13 @@ $('#checkboxdos').click(function(){
         $('.btn-register').addClass("disabled");
     }
 }); 
+
+//Disable Button
+$(".btn-register").click(function(e){
+    if($(".btn-register").hasClass("disabled")){
+        e.preventDefault();
+    }
+});
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
