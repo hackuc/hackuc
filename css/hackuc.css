@@ -426,9 +426,6 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
-.disabled{
-    
-}
 #faq{
     background: url("../img/green.png");
     background-size:cover;
@@ -490,7 +487,7 @@ body {
     border-radius: 20px;
     display: block;
     margin: auto;
-    font-size: 16px;
+    font-size: 20px;
 }
 .hacktable {
     margin:0px;padding:0px;
@@ -539,20 +536,24 @@ body {
     -moz-border-radius-bottomleft:10px;
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
-}.hacktable tr:hover td{
-    
 }
-.hacktable tr:nth-child(odd){ background-color:#ffffff; }
-.hacktable tr:nth-child(even)    { background-color:#94c8fc; }.hacktable td{
+.hacktable tr:nth-child(odd){ 
+    background-color:#DEF2F3; 
+    color: black;
+}
+.hacktable tr:nth-child(even)    { 
+    background-color:#1093A7; 
+    color: white; 
+}
+.hacktable td{
     vertical-align:middle;
     
     
     text-align:center;
     padding:14px;
-    font-size:10px;
-    font-family:Arial;
+    font-size:18px;
+    font-family:Titillium Web;
     font-weight:normal;
-    color:#000000;
 }.hacktable tr:last-child td{
     border-width:0px 1px 0px 0px;
 }.hacktable tr td:last-child{
@@ -561,25 +562,16 @@ body {
     border-width:0px 0px 0px 0px;
 }
 .hacktable tr:first-child td{
-        background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
-    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
 
-    background-color:#ffffff;
+    background-color:#DEF2F3;
     
     text-align:center;
-    font-size:14px;
-    font-family:Arial;
+    font-size:24px;
+    font-family:Titillium Web;
     font-weight:bold;
     color:#000000;
 }
-.hacktable tr:first-child:hover td{
-    background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
-    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
 
-    background-color:#ffffff;
-}
 .hacktable tr:first-child td:first-child{
     border-width:0px 0px 1px 0px;
 }
