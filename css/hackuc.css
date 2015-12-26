@@ -429,7 +429,7 @@ body {
     webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: url("../img/green.png");
+    background: #fff;
     background-size:cover;
 }
 #schedule{
@@ -650,5 +650,37 @@ input {
     margin:0 !important;
 }
 
+#faq .faq-card {
+    width:85%;
+    margin: 25px auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
 
+#faq .card-header {
+    background-color: #41bdf2;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
 
+#faq .card-body {
+    color: #000;
+    font-size: 14px;
+    padding: 0px 10px;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.3s ease-in;
+}
+
+#faq .active {
+    height: auto;
+    padding: 15px 10px;
+    border: 2px solid #41bdf2;
+    border-top: 0;
+}
+
+#faq .card-header:hover {
+    background-color: #2e86ab;
+}

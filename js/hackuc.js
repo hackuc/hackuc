@@ -84,6 +84,15 @@ $(".btn-register").click(function(e){
         e.preventDefault();
     }
 });
+
+//FAQ Section
+$("#faq .card-header").on("click", function() {
+    $("#faq .card-body").toggleClass("active");
+    
+});
+
+
+
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
