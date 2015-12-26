@@ -14,7 +14,9 @@
     font-size: 30px;
     color:black;
 }
-
+.left {
+    text-align: left;
+}
 * {
     position: relative;
 }
@@ -63,7 +65,7 @@ p {
 }
 
 a {
-    color: #3498DB;
+    color: #086bad;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -79,7 +81,15 @@ a:focus {
 .light {
     font-weight: 300;
 }
-
+.fa{
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color:white !important;
+}
 .navbar-custom {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
@@ -110,6 +120,10 @@ a:focus {
 .navbar-custom a {
     color: #fff;
 }
+.nav{
+
+    margin-left: -10%;
+}
 
 .navbar-custom .nav li a {
     -webkit-transition: background .3s ease-in-out;
@@ -121,6 +135,7 @@ a:focus {
     outline: 0;
     color: rgba(255,255,255,.8);
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li a:focus,
@@ -210,10 +225,9 @@ a:focus {
     margin-top:0px !important;
     margin-bottom:30px;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .down{
         visibility: hidden;
-        display:none;
     }
     .timeline{
          visibility: hidden;
@@ -412,10 +426,10 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
+    -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: url("../img/green.png");
+    background: #fff;
     background-size:cover;
 }
 #schedule{
@@ -432,7 +446,7 @@ body {
 }
 #register{
     
-    background-color:#1aa851;
+    background-color:#98DB40;
     background-size:cover;
 }
 #sponsors{
@@ -470,18 +484,19 @@ body {
 .boxed{
     width: 50%;
     margin-top: 20px !important;
-    padding: 15px;
+    padding: 10px;
     border: 2px solid black;
-    border-radius: 20px;
+    border-radius: 30px;
     display: block;
     margin: auto;
-    font-size: 16px;
+    font-size: 15px;
+
 }
 .hacktable {
     margin:0px;padding:0px;
-    width:80%;
+    width:100%;
     border: none;
-    margin-left: 10%;
+    margin-left: 0%;
     -moz-border-radius-bottomleft:10px;
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
@@ -524,20 +539,32 @@ body {
     -moz-border-radius-bottomleft:10px;
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
-}.hacktable tr:hover td{
-    
 }
-.hacktable tr:nth-child(odd){ background-color:#ffffff; }
-.hacktable tr:nth-child(even)    { background-color:#94c8fc; }.hacktable td{
+.hacktable tr:nth-child(odd){ 
+    background-color:#DEF2F3; 
+    color: black;
+}
+.hacktable tr:nth-child(even)    { 
+    background-color:#009ab2; 
+    color: white; 
+}
+.day{
+
+    text-align:center;
+    font-size:24px !important;
+    font-family:Titillium Web;
+    font-weight:bold !important;
+
+}
+.hacktable td{
     vertical-align:middle;
     
     
     text-align:center;
     padding:14px;
-    font-size:10px;
-    font-family:Arial;
+    font-size:18px;
+    font-family:Titillium Web;
     font-weight:normal;
-    color:#000000;
 }.hacktable tr:last-child td{
     border-width:0px 1px 0px 0px;
 }.hacktable tr td:last-child{
@@ -546,25 +573,16 @@ body {
     border-width:0px 0px 0px 0px;
 }
 .hacktable tr:first-child td{
-        background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
-    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
 
-    background-color:#ffffff;
+    background-color:#DEF2F3;
     
     text-align:center;
-    font-size:14px;
-    font-family:Arial;
+    font-size:24px;
+    font-family:Titillium Web;
     font-weight:bold;
     color:#000000;
 }
-.hacktable tr:first-child:hover td{
-    background:-o-linear-gradient(bottom, #ffffff 5%, #ffffff 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #ffffff) );
-    background:-moz-linear-gradient( center top, #ffffff 5%, #ffffff 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#ffffff");  background: -o-linear-gradient(top,#ffffff,ffffff);
 
-    background-color:#ffffff;
-}
 .hacktable tr:first-child td:first-child{
     border-width:0px 0px 1px 0px;
 }
@@ -590,6 +608,14 @@ body {
     margin-bottom:5%;
     margin-top:20%;
 }
+.sponsorimg{
+    width:35%;
+    height:auto;
+    margin:auto;
+    display:block;
+    margin-bottom:2%;
+    margin-top:5%;
+}
 #second{
     display:none;
 }
@@ -600,7 +626,21 @@ body {
 .footclass{
     margin-left:-80px;
 }
-
+label {
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+input {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
 /*Bootstrap overrides*/
 .glyphicon {
     font-size: 20px;
@@ -608,4 +648,40 @@ body {
 }
 .row {
     margin:0 !important;
+}
+
+#faq .faq-card {
+    width:85%;
+    margin: 25px auto;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+}
+
+#faq .card-header {
+    background-color: #41bdf2;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 5px;
+    cursor: pointer;
+    transition: background-color 0.3s linear;
+}
+
+#faq .card-body {
+    color: #000;
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 20px;
+    overflow: hidden;
+    height: 0px;
+    transition: all 0.3s ease-in;
+}
+
+#faq .active {
+    height: auto;
+    padding: 15px 20px;
+    border: 2px solid #41bdf2;
+    border-top: 0;
+}
+
+#faq .card-header:hover {
+    background-color: #2e86ab;
 }
