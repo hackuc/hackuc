@@ -87,8 +87,22 @@ $(".btn-register").click(function(e){
 
 //FAQ Section
 $("#faq .card-header").on("click", function() {
-    $("#faq .card-body").toggleClass("active");
+    var cardHeader = $(this).next();
+    var hasClassActive;
+    if(cardHeader.hasClass("active")) {
+        hasClassActive = true;
+    } else {
+        hasClassActive = false;
+    }
+    //cannot use toggle cause we're setting all of them to inactive
+    $("#faq .card-body").removeClass("active");
+    //this is the card-header
     
+    if(!hasClassActive) {
+        cardHeader.addClass("active");
+    } else {
+        cardHeader.removeClass("active");
+    }
 });
 
 
