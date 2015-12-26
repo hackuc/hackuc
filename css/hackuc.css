@@ -669,6 +669,7 @@ input {
     color: #000;
     font-size: 16px;
     text-align: left;
+    line-height: 2;
     padding: 0px 20px;
     overflow: hidden;
     height: 0px;
