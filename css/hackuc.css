@@ -494,9 +494,9 @@ body {
 }
 .hacktable {
     margin:0px;padding:0px;
-    width:80%;
+    width:100%;
     border: none;
-    margin-left: 10%;
+    margin-left: 0%;
     -moz-border-radius-bottomleft:10px;
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
@@ -545,7 +545,7 @@ body {
     color: black;
 }
 .hacktable tr:nth-child(even)    { 
-    background-color:#1093A7; 
+    background-color:#009ab2; 
     color: white; 
 }
 .day{
