@@ -727,3 +727,14 @@ input {
   -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
+
+.social {
+    position:fixed;
+    top:200px;
+    right:97px;
+    max-width:100px;
+    width:10%;
+    min-width: 60px;
+    display:block;
+    z-index:10001;
+}

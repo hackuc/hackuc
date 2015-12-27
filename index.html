@@ -8,7 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official 2016 UCVTS hackathon, being held on Jun 4-5 for 24 hours. HackUC II Website. One of the first high school hackathons. ">
     <meta name="author" content="HackUC">
-
+    <meta property="og:url"           content="http://hackuc.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="HackUC - UCVTS 24 Hour Hackathon for High School Students" />
+    <meta property="og:description"   content="The official 2016 UCVTS hackathon, being held on Jun 4-5 for 24 hours. HackUC II Website. One of the first high school hackathons." />
+    <meta property="og:image"         content="logo.png" />
     <title>HackUC - UCVTS 24 Hour Hackathon for High School Students</title>
 
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -31,7 +35,22 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="social">
+     
+        <a href="https://twitter.com/hackuc" class="twitter-follow-button">Follow @hackuc</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+       <div class="fb-like" data-href="http://hackuc.com" data-width="100" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+        <div class="fb-share-button" data-href="http://hackuc.com" data-layout="button_count"></div>
 
+    </div>
 
     <a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
@@ -275,7 +294,7 @@
       <label for="checkboxdos"><input type="checkbox" value="None" id="checkboxdos" name="check" /> &nbsp; We participate in Major League Hacking (MLH) as a MLH Member Event. You authorize us to share certain application/registration information for event administration, ranking, MLH administration, and occasional messages about hackathons in line with the MLH Privacy Policy.</label>
         <br><br>
         
-        
+
         <!--<a href="http://my.mlh.io/oauth/authorize?client_id=4d540941226344687097d1eea8d8104192a7b6c29f0a98809bf22444c3e4c20d&redirect_uri=https://hackuc.com/thanks.html&response_type=token"><button class="btn btn-default btn-register btn-lg btn-white disabled"><span class="glyphicon glyphicon-pencil"></span>&nbsp; &nbsp; MyMLH Registration</button></a>
         
         </div>
