@@ -664,7 +664,16 @@ input {
     cursor: pointer;
     transition: background-color 0.3s linear;
 }
-
+.mlh-trust-badge{
+    position:fixed;
+    top:0;
+    right:50px;
+    max-width:100px;
+    width:10%;min-width: 60px;display:block;z-index:10000
+}
+.mlh-pic{
+    width:100%;
+}
 #faq .card-body {
     color: #000;
     font-size: 16px;
@@ -686,4 +695,34 @@ input {
 
 #faq .card-header:hover {
     background-color: #2e86ab;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
 }
