@@ -1,4 +1,4 @@
-html, body {
+html{
     font-family: "Titillium Web", sans-serif;
     background: url("../img/team.svg");
     background-repeat: no-repeat;
@@ -162,7 +162,7 @@ img.icon {
   background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
-  position:fixed;
+  position:fixed !important;
   z-index: 5;
   margin-left:2px;
 }

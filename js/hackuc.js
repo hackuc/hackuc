@@ -50,7 +50,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 400, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -59,6 +59,52 @@ $(function() {
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
+//Checkbox Check
+
+$('#checkbox').click(function(){
+    if (this.checked&& document.getElementById('checkboxdos').checked) {
+        $(".btn-register").removeClass("disabled");
+    }
+    if (!(this.checked&& document.getElementById('checkboxdos').checked)){
+        $('.btn-register').addClass("disabled");
+    }
+}); 
+$('#checkboxdos').click(function(){
+    if (this.checked&& document.getElementById('checkbox').checked) {
+        $(".btn-register").removeClass("disabled");
+    }
+    if (!(this.checked&& document.getElementById('checkbox').checked)){
+        $('.btn-register').addClass("disabled");
+    }
+}); 
+
+//Disable Button
+$(".btn-register").click(function(e){
+    if($(".btn-register").hasClass("disabled")){
+        e.preventDefault();
+    }
+});
+
+//FAQ Section
+$("#faq .card-header").on("click", function() {
+    var cardHeader = $(this).next();
+    var hasClassActive;
+    if(cardHeader.hasClass("active")) {
+        hasClassActive = true;
+    } else {
+        hasClassActive = false;
+    }
+    //cannot use toggle cause we're setting all of them to inactive
+    $("#faq .card-body").removeClass("active");
+    //this is the card-header
+    
+    if(!hasClassActive) {
+        cardHeader.addClass("active");
+    } else {
+        cardHeader.removeClass("active");
+    }
+});
+
 
 /*!
  * Bootstrap v3.3.4 (http://getbootstrap.com)
