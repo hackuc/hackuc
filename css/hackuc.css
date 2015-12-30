@@ -738,3 +738,9 @@ input {
     display:block;
     z-index:10001;
 }
+@media screen and (max-width:700px){
+    .social{
+        visibility:hidden;
+        display:none;
+    }
+}
