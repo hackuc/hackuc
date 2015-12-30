@@ -730,8 +730,8 @@ input {
 
 .social {
     position:fixed;
-    top:200px;
-    right:97px;
+    top:75px;
+    right:250px;
     max-width:100px;
     width:10%;
     min-width: 60px;
