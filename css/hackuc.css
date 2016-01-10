@@ -28,7 +28,7 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Titillium Web,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #000;
 
 }
@@ -45,7 +45,7 @@ h5,
 h6 {
     margin: 0 0 20px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Titillium Web,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     letter-spacing: 1px;
 }
@@ -94,7 +94,7 @@ a:focus {
     margin-bottom: 0;
     border-bottom: 1px solid rgba(255,255,255,.3);
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Titillium Web,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
 }
 
@@ -333,7 +333,7 @@ a:focus {
 }
 .btn {
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: PT Sans,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
@@ -429,7 +429,7 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: #fff;
+    background: #96ffa4;
     background-size:cover;
 }
 #schedule{
@@ -463,6 +463,7 @@ body {
 
 .blurbdescription {
     line-height: 1.4;
+    font-size: 25px;
 }
 #circle{
     width: 40px;
@@ -552,7 +553,7 @@ body {
 
     text-align:center;
     font-size:24px !important;
-    font-family:Titillium Web;
+    font-family:PT Sans;
     font-weight:bold !important;
 
 }
@@ -664,7 +665,16 @@ input {
     cursor: pointer;
     transition: background-color 0.3s linear;
 }
-
+.mlh-trust-badge{
+    position:fixed;
+    top:0;
+    right:50px;
+    max-width:100px;
+    width:10%;min-width: 60px;display:block;z-index:10000
+}
+.mlh-pic{
+    width:100%;
+}
 #faq .card-body {
     color: #000;
     font-size: 16px;
@@ -673,6 +683,7 @@ input {
     padding: 0px 20px;
     overflow: hidden;
     height: 0px;
+    background: #fff;
     transition: all 0.3s ease-in;
 }
 
@@ -685,4 +696,51 @@ input {
 
 #faq .card-header:hover {
     background-color: #2e86ab;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+.social {
+    position:fixed;
+    top:75px;
+    right:250px;
+    max-width:100px;
+    width:10%;
+    min-width: 60px;
+    display:block;
+    z-index:10001;
+}
+@media screen and (max-width:700px){
+    .social{
+        visibility:hidden;
+        display:none;
+    }
 }

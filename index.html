@@ -8,18 +8,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="The official 2016 UCVTS hackathon, being held on Jun 4-5 for 24 hours. HackUC II Website. One of the first high school hackathons. ">
     <meta name="author" content="HackUC">
-
-    <title>HackUC - UCVTS 24 Hour Hackathon for High Schoolers</title>
+    <meta property="og:url"           content="http://hackuc.com" />
+    <meta property="og:type"          content="website" />
+    <meta property="og:title"         content="HackUC - UCVTS 24 Hour Hackathon for High School Students" />
+    <meta property="og:description"   content="The official 2016 UCVTS hackathon, being held on Jun 4-5 for 24 hours. HackUC II Website. One of the first high school hackathons." />
+    <meta property="og:image"         content="logo.png" />
+    <title>HackUC - UCVTS 24 Hour Hackathon for High School Students</title>
 
     <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
     <link rel="icon" href="favicon.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/hackuc.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -33,6 +35,22 @@
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+    <div class="social">
+     
+        <a href="https://twitter.com/hackuc" class="twitter-follow-button">Follow @hackuc</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+       <div class="fb-like" data-href="https://www.facebook.com/hackucvts" data-width="100" data-layout="button_count" data-action="like" data-show-faces="false" data-share="true"></div>
+       
+    </div>
+
     <a id="mlh-trust-badge" style="position:fixed;top:0;right:50px;max-width:100px;width:10%;min-width: 60px;display:block;z-index:10000" href="https://mlh.io/?utm_campaign=Trust%20Badge" target="_blank"><img src="https://s3.amazonaws.com/logged-assets/trust-badge/s2016.png" alt="MLH Official - Spring 2016" style="width:100%;" ></a>
     <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -118,7 +136,7 @@
         <h2 class="col-12 font-semibold">About</h2>
         <br>
         <div class="col-sm-12 text-center">
-        <h3 class="font-thin blurbdescription"><strong>HackUC</strong> is a 24 hour high school <strong>hackathon</strong> held at <strong>Union County Vocational Technical Schools</strong>, a district composed of five schools spanning a variety of subjects from engineering to health, located in <strong>Scotch Plains, New Jersey</strong>. All high schoolers are welcome!</h3>
+        <p class="font-thin blurbdescription"><strong>HackUC</strong> is a 24 hour high school <strong>hackathon</strong> held at <strong>Union County Vocational Technical Schools</strong>, a district composed of five schools spanning a variety of subjects from engineering to health, located in <strong>Scotch Plains, New Jersey</strong>. All high schoolers are welcome!</p>
         <br><br>
         <div class="timeline">
         <div class="row">
@@ -138,7 +156,7 @@
         </div>
         <div class="row">
         <div class="col-md-12 text-center">
-        <div class="font-thin boxed text-center" id="first">The first HackUC was twelve hours and held on June 22nd. It all started with a huge plan to encourage interest in technology and was a huge success thanks to both the mentors and the students. You can check out some of the projects at <a href="//hackuc.devpost.com"> hackuc.devpost.com.</a></div>
+        <div class="font-thin boxed text-center" id="first">The first HackUC hackathon was twelve hours and held on June 22nd. It all started with a huge plan to encourage interest in technology in high schoolers and was a huge success thanks to both the mentors and the students. You can check out some of the projects at <a href="//hackuc.devpost.com"> hackuc.devpost.com.</a></div>
         <div class="font-thin boxed text-center" id="second">HackUC II will be on June 4th to 5th, lasting for 24 hours. We've learned from the first hackathon and will make improvements. We envision a successful hackathon in which new and old hackers can come together and hack. Come make history with us!</div>
         </div>
 
@@ -175,13 +193,18 @@
                 <h2 class="col-md-12 font-semibold">FAQ</h2>
                 <div class="clearfix"></div>
                 <div class="faq-card">
+                    <div class="card-header">What is a hackathon?</div>
+                    <div class="card-body">A hackathon is an event where people come together to try to create something in 24 hours. Web designers, developers, and business-oriented people with good ideas can all team up to produce a working demo. If you want to learn more about what hackathons are, visit <a href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601#.ye7ugg1n7">this</a> out for more info!
+                    </div>
+                    </div>
+                <div class="faq-card">
                     <div class="card-header">How much does HackUC cost?</div>
-                    <div class="card-body">HackUC is <strong>completely</strong> free. We believe that anyone who wants to come into the STEM field should have the resources to do so. Come use your skills, learn new ones, and eat all the food you can!
+                    <div class="card-body">HackUC is <strong>completely</strong> free. We believe that anyone who wants to come into the STEM field should have the resources to do so. Come use your skills, learn new ones, and eat all the (free) food that you can!
                     </div>
                 </div>
                 <div class="faq-card">
                     <div class="card-header">What if I have no experience in coding?</div>
-                    <div class="card-body">Last year, most of the hackers did not know a single thing about programming. HackUC aims to teach everyone more about computer knowledge. Our goal is to have you leave with more knowledge than you came in with. Check <a href="https://medium.com/hackathons-anonymous/wtf-is-a-hackathon-92668579601#.ye7ugg1n7">this</a> out for more info!
+                    <div class="card-body">Last year, most of the hackers at the hackathon did not know a single thing about programming. HackUC aims to teach everyone more about computer knowledge. Our goal is to have you leave with more knowledge than you came in with. You can be interested in anything, and still find a way to apply it to the hackathon by creating something about that interest. Most people don't realize, but hackathons are also about teamwork, fun, and free food! 
                     </div>
                 </div>
                 <div class="faq-card">
@@ -189,25 +212,49 @@
                     <div class="card-body">Bring all of these items on the day of the hackathon:
                         <ul>
                             <li>Laptop</li>
+                            <li>School ID</li>
+                            <li>Cell Phone</li>
                             <li>Chargers for your Devices (laptop, phone, tablet, etc.)</li>
                             <li>Entry Ticket (can be electronic or physical)</li>
                             <li>Release Waiver</li>
+                            <li>Toiletries/Change of Clothes</li>
                             <li>Attitude to Learn</li>
                         </ul>
+                        Other recommended items include:
+                        <ul>
+                            <li>Pillow/Sleeping Bag</li>
+                            <li>Extension Cords</li>
+                        </ul>
+
                     </div>
                 </div>
                 <div class="faq-card">
-                    <div class="card-header">I know someone who may be willing to sponsor.</div>
+                    <div class="card-header">When/Where is this hackathon?</div>
+                    <div class="card-body">HackUC will be hosted in UCVTS, Scotch Plains NJ on June 4th-5th. There will be arrow signs posted around the campus directing you to the correct place, as well as schedules to make it easier to tell when you're supposed to be somewhere.
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="card-header">What do I win?</div>
+                    <div class="card-body">HackUC offers everyone a lifetime supply of happy memories and friends made during this weekend. In addition to this amazing prize, a panel of judges will select the best three prizes to win a trophy and fantastic prizes. Other awards are given to those using specific technologies and APIs. Participants will also get tons of free swag from sponsoring companies! 
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="card-header">Am I eligible to attend this hackathon?</div>
+                    <div class="card-body">Any high school student 14 years or older may attend. There is no application process, just sign up! If you're out of high school, feel free to come and mentor!
+                    </div>
+                </div>
+                <div class="faq-card">
+                    <div class="card-header">I know someone who may be willing to sponsor HackUC.</div>
                     <div class="card-body">That's awesome - we always need more sponsors for the event. Please let us know their email so that we can get in touch with them.
                     </div>
                 </div>
                 <div class="faq-card">
-                    <div class="card-header">I am an adult who would like to help out.</div>
+                    <div class="card-header">I am an adult who would like to help out with HackUC.</div>
                     <div class="card-body">Perfect! HackUC always needs more mentors and adults in the event. If you are able to help us, please contact us below and we will get in touch as soon as possible. No matter who you are, you can help out!
                     </div>
                 </div>
                 <div class="faq-card">
-                    <div class="card-header">I have other requests and/or questions.</div>
+                    <div class="card-header">I have other requests and/or questions about HackUC.</div>
                     <div class="card-body">We would be glad to hear anything you have to say. Let us know your concerns at the bottom of the page.
                     </div>
                 </div>
@@ -216,13 +263,7 @@
         <br>
 
         </div>
-        <br><br>
-        <div class="row">
-        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
-        <h3>Don't forget to bring a <a href="http://hackuc.com/hackucwaiver.pdf">release waiver</a> to the event!</h3>
-        </div>
 
-        </div>
 
         <br>
 
@@ -230,7 +271,51 @@
     </div>
 
     </section>
+    <section id="register" class="content-section text-center">
+        <div class="container">
+        <div class="row">
+        <div class="row subtitle-row">
+        <h2 class="col-md-12 col-xs-12 col-sm-12 font-semibold">Ready to Register?</h2>
+        <br>
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <h3 class="font-thin">Decided you want to be a part of this awesome event? Let's get you on the list! <br>Registration closes on either April 20th or when there is no more space.</h3>
+        <h3 class="font-thin">The Code of Conduct extends to all attendees, including hackers, volunteers, organizers, sponsors, judges, mentors, and MLH staff. HackUC has the right to remove/deny entry to anyone who violates the Code of Conduct. If you see someone violating the Code of Conduct, immediately tell an organizer or email <a class="with-hover-text" target="_blank" href="mailto:contact@hackuc.com">contact@hackuc.com</a></h3> 
+        <br>
+        <a href="http://hackuc.com/thanks.html"><button class="btn btn-default btn-lg btn-white"><span class="glyphicon glyphicon-book"></span>&nbsp; &nbsp; MLH Code of Conduct</button></a>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <br>      
+        <label for="checkbox"><input type="checkbox" value="None" id="checkbox" name="check" /> &nbsp; I have read and agree to follow the rules outlined in the Code of Conduct linked above. </label>
 
+      <br>
+      <label for="checkboxdos"><input type="checkbox" value="None" id="checkboxdos" name="check" /> &nbsp; We participate in Major League Hacking (MLH) as a MLH Member Event. You authorize us to share certain application/registration information for event administration, ranking, MLH administration, and occasional messages about hackathons in line with the MLH Privacy Policy.</label>
+        <br><br>
+        
+
+        <!--<a href="http://my.mlh.io/oauth/authorize?client_id=4d540941226344687097d1eea8d8104192a7b6c29f0a98809bf22444c3e4c20d&redirect_uri=https://hackuc.com/thanks.html&response_type=token"><button class="btn btn-default btn-register btn-lg btn-white disabled"><span class="glyphicon glyphicon-pencil"></span>&nbsp; &nbsp; MyMLH Registration</button></a>
+        
+        </div>
+        </div>
+        <br>
+
+        </div>
+        <br><br>
+        <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <h3>Don't forget to bring a <a href="http://hackuc.com/hackucwaiver.pdf">release waiver</a> to the event!</h3>
+        </div>-->
+
+        </div>
+
+        <br>
+
+    </div>
+    </div>
+    Coming Soon!
+
+    </section>    
     <section id="schedule" class="content-section text-center">
         <div class="container">
         <div class="row">
@@ -410,7 +495,7 @@
         <br><br>
         <p>Know someone who'd like to sponsor? Contact us at <a class="with-hover-text" target="_blank" href="mailto:sponsor@hackuc.com">sponsor@hackuc.com</a>!</p><br>
         <h2>Partnered with</h2>
-        <img class="sponsorimg" src="img/mlh-logo.png"/>
+        <img class="sponsorimg" alt="sponsorimg" src="img/mlh-logo.png"/>
     </div>
     </div>
     </div>
