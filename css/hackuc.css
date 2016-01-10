@@ -670,7 +670,10 @@ input {
     top:0;
     right:50px;
     max-width:100px;
-    width:10%;min-width: 60px;display:block;z-index:10000
+    width:10%;
+    min-width: 60px;
+    display:block;
+    z-index:10000;
 }
 .mlh-pic{
     width:100%;
