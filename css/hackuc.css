@@ -669,7 +669,7 @@ input {
     cursor: pointer;
     transition: background-color 0.3s linear;
 }
-.mlh-trust-badge{
+#mlh-trust-badge{
     position:fixed;
     top:0;
     right:50px;
