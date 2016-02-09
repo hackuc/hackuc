@@ -184,7 +184,7 @@ a:focus {
     height: auto;
     text-align: center;
     color: #fff;
-    background-image: url("../img/red.png");
+    background-image: url("../img/rednew.png");
     background-size: cover;
     background-attachment:fixed;
     background-repeat:no-repeat;
@@ -433,15 +433,15 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: #96ffa4;
+    background: url("../img/greennew.png");
     background-size:cover;
 }
 #schedule{
-    background: url("../img/blue.png");
+    background: url("../img/bluenew.png");
     background-size:cover;
 }
 #contact{
-    background: url("../img/pink.png");
+    background: url("../img/pinknew.png");
     background-size:cover;
 }
 #about{
