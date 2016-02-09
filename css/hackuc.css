@@ -662,7 +662,7 @@ input {
 }
 
 #faq .card-header {
-    background-color: #41bdf2;
+    background-color: #73b579;
     color: #fff;
     font-size: 24px;
     padding: 10px 5px;
@@ -697,12 +697,12 @@ input {
 #faq .active {
     height: auto;
     padding: 15px 20px;
-    border: 2px solid #41bdf2;
+    border: 2px solid #5ea464;
     border-top: 0;
 }
 
 #faq .card-header:hover {
-    background-color: #2e86ab;
+    background-color: #81bd87;
 }
 .animated {
   -webkit-animation-duration: 1s;
