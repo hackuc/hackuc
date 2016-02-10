@@ -672,7 +672,7 @@ input {
 #mlh-trust-badge{
     position:fixed;
     top:0;
-    right:50px;
+    right:10px;
     max-width:100px;
     width:10%;
     min-width: 60px;
