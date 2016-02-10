@@ -184,7 +184,7 @@ a:focus {
     height: auto;
     text-align: center;
     color: #fff;
-    background-image: url("../img/rednew.png");
+    background-image: url("../img/red.png");
     background-size: cover;
     background-attachment:fixed;
     background-repeat:no-repeat;
@@ -433,15 +433,15 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: url("../img/greennew.png");
+    background: url("../img/green.png");
     background-size:cover;
 }
 #schedule{
-    background: url("../img/bluenew.png");
+    background: url("../img/blue.png");
     background-size:cover;
 }
 #contact{
-    background: url("../img/pinknew.png");
+    background: url("../img/pink.png");
     background-size:cover;
 }
 #about{
@@ -450,7 +450,7 @@ body {
 }
 #register{
     
-    background-color:#94AD73;
+    background-color:#98DB40;
     background-size:cover;
 }
 #sponsors{
@@ -662,7 +662,7 @@ input {
 }
 
 #faq .card-header {
-    background-color: #73b579;
+    background-color: #4f9656;
     color: #fff;
     font-size: 24px;
     padding: 10px 5px;
