@@ -434,7 +434,7 @@ body {
 }
 #faq{
     background: #96ffa4;
-    background-size:cover;
+    background-size:250%;
 }
 #schedule{
     background: url("../img/blue.png");
