@@ -433,8 +433,8 @@ body {
     -webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 #faq{
-    background: #96ffa4;
-    background-size:cover;
+    background: url("../img/green.png");
+    background-size:250%;
 }
 #schedule{
     background: url("../img/blue.png");
@@ -662,7 +662,7 @@ input {
 }
 
 #faq .card-header {
-    background-color: #41bdf2;
+    background-color: #4f9656;
     color: #fff;
     font-size: 24px;
     padding: 10px 5px;
@@ -672,7 +672,7 @@ input {
 #mlh-trust-badge{
     position:fixed;
     top:0;
-    right:50px;
+    right:10px;
     max-width:100px;
     width:10%;
     min-width: 60px;
@@ -697,12 +697,12 @@ input {
 #faq .active {
     height: auto;
     padding: 15px 20px;
-    border: 2px solid #41bdf2;
+    border: 2px solid #5ea464;
     border-top: 0;
 }
 
 #faq .card-header:hover {
-    background-color: #2e86ab;
+    background-color: #81bd87;
 }
 .animated {
   -webkit-animation-duration: 1s;

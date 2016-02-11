@@ -7,10 +7,14 @@ html{
 }
 h1 {
     text-align:center;
-
   margin-top:40px;
 }
 
+h2 {
+    text-align:center;
+    margin-top:40px;
+    font-size: 250%;
+}
 p {
     margin: 0.5em;
 }
@@ -104,6 +108,7 @@ img.icon {
 /* hide back of pane during swap */
 .front, .back {
     -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
