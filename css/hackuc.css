@@ -615,9 +615,18 @@ body {
 }
 .sponsorimg{
     width:35%;
-    height:auto;
+    height:35%;
     margin:auto;
     display:block;
+    margin-bottom:2%;
+    margin-top:5%;
+}
+
+.sponsorimgsmall{
+    width:15%;
+    height:auto;
+    margin:auto;
+    display:inline-block;
     margin-bottom:2%;
     margin-top:5%;
 }
