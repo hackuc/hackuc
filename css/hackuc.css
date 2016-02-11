@@ -611,11 +611,11 @@ body {
     margin:auto;
     display:block;
     margin-bottom:5%;
-    margin-top:20%;
+    margin-top:10%;
 }
 .sponsorimg{
-    width:35%;
-    height:35%;
+    width:20%;
+    height:auto;
     margin:auto;
     display:block;
     margin-bottom:2%;
