@@ -7,10 +7,14 @@ html{
 }
 h1 {
     text-align:center;
-
   margin-top:40px;
 }
 
+h2 {
+    text-align:center;
+    margin-top:40px;
+    font-size: 250%;
+}
 p {
     margin: 0.5em;
 }
