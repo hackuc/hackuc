@@ -613,6 +613,17 @@ body {
     margin-bottom:5%;
     margin-top:10%;
 }
+
+.tinylogoimg{
+    width:25%;
+    height:auto;
+    margin:auto;
+    display:block;
+    margin-bottom:5%;
+    margin-top:10%;
+}
+
+
 .sponsorimg{
     width:20%;
     height:auto;
@@ -622,7 +633,7 @@ body {
     margin-top:5%;
 }
 
-.sponsorimgsmall{
+.tinysponsorimg{
     width:15%;
     height:auto;
     margin:auto;
