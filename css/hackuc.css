@@ -756,11 +756,11 @@ input {
 
 .social {
     position:fixed;
-    top:75px;
+    top:60px;
     right:250px;
-    max-width:100px;
+    max-width:70px;
     width:10%;
-    min-width: 60px;
+    min-width: 20px;
     display:block;
     z-index:10001;
 }
