@@ -193,7 +193,7 @@ a:focus {
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
-    
+
 }
 
 .intro .intro-body .brand-heading {
@@ -239,7 +239,7 @@ a:focus {
     }
 }
 .btn-circle {
-    
+
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -279,7 +279,7 @@ a:focus {
     -moz-animation-timing-function: linear;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -296,7 +296,7 @@ a:focus {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -313,23 +313,28 @@ a:focus {
     }
 }
 
+.poly-section {
+  background-position: cover;
+  background-attachment: fixed !important;
+}
+
 .content-section {
     padding-top: 80px;
     padding-bottom: 80px;
 }
 
-    
+
 .download-section {
     width: 100%;
     color: #000;
-    
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
 }
 .contact-section{
- 
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -400,7 +405,7 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
-    
+
 }
 
 @media(max-width:990px) {
@@ -434,29 +439,24 @@ body {
 }
 #faq{
     background: url("../img/green.png");
-    background-size:5000px;
 }
 #schedule{
-    background: url("../img/blue.png");
-    background-size:cover;
+    background: #70D3DF;
 }
 #contact{
-    background: url("../img/pink.png");
-    background-size:cover;
+    background: #F26BA3;
 }
 #about{
     background-color:#FDB913;
     background-size:cover;
 }
 #register{
-    
+
     background-color:#98DB40;
     background-size:cover;
 }
 #sponsors{
-     background-color:#d0a9fc;
-    background-size:cover;
-
+    background: url("../img/purple.png");
 }
 #footer{
       background-color:#00000f;
@@ -505,15 +505,15 @@ body {
     -moz-border-radius-bottomleft:10px;
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
-    
+
     -moz-border-radius-bottomright:10px;
     -webkit-border-bottom-right-radius:10px;
     border-bottom-right-radius:10px;
-    
+
     -moz-border-radius-topright:10px;
     -webkit-border-top-right-radius:10px;
     border-top-right-radius:10px;
-    
+
     -moz-border-radius-topleft:10px;
     -webkit-border-top-left-radius:10px;
     border-top-left-radius:10px;
@@ -545,13 +545,13 @@ body {
     -webkit-border-bottom-left-radius:10px;
     border-bottom-left-radius:10px;
 }
-.hacktable tr:nth-child(odd){ 
-    background-color:#DEF2F3; 
+.hacktable tr:nth-child(odd){
+    background-color:#DEF2F3;
     color: black;
 }
-.hacktable tr:nth-child(even)    { 
-    background-color:#009ab2; 
-    color: white; 
+.hacktable tr:nth-child(even)    {
+    background-color:#009ab2;
+    color: white;
 }
 .day{
 
@@ -563,8 +563,8 @@ body {
 }
 .hacktable td{
     vertical-align:middle;
-    
-    
+
+
     text-align:center;
     padding:14px;
     font-size:18px;
@@ -580,7 +580,7 @@ body {
 .hacktable tr:first-child td{
 
     background-color:#DEF2F3;
-    
+
     text-align:center;
     font-size:24px;
     font-family:Titillium Web;
@@ -706,23 +706,33 @@ input {
     font-size: 16px;
     text-align: left;
     line-height: 2;
-    padding: 0px 20px;
     overflow: hidden;
-    height: 0px;
     background: #fff;
-    transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #4f9656;
+    border-top: 0;
+    box-sizing: border-box;
+    max-height: 0px;
 }
 
-#faq .active {
-    height: auto;
-    padding: 15px 20px;
-    border: 2px solid #5ea464;
-    border-top: 0;
+#faq .card-body article {
+  padding: 15px 20px;
+  margin: 0px;
+
+}
+
+#faq .card-body.active {
+    max-height: 450px;
 }
 
 #faq .card-header:hover {
     background-color: #81bd87;
 }
+
+#faq .card-header:hover + .card-body {
+    border-color: #81bd87;
+}
+
 .animated {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
