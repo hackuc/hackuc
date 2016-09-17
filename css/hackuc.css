@@ -652,7 +652,7 @@ body {
 .tinysponsorimg{
     width:15%;
     height:auto;
-    margin:auto;
+    margin: 20px;
     display:inline-block;
     margin-bottom:2%;
 }
