@@ -69,11 +69,29 @@ a {
     transition: all .2s ease-in-out;
 }
 
+a:after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #086bad;
+    height: 2px;
+    width: 0;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 300ms ease-in-out;
+}
+
 a:hover,
 a:focus {
+    outline: 0;
     text-decoration: none;
-    color: #40e8bb;
+    color: #086bad;
+}
 
+a:hover:after,
+a:focus:after {
+    width: 100%;
 }
 
 .light {
@@ -136,7 +154,8 @@ a:focus {
 }
 
 
-.navbar-custom .nav li a:hover:after {
+.navbar-custom .nav li a:hover:after,
+.navbar-custom .nav li a:focus:after {
     width: calc(100% - 30px);
 }
 
@@ -252,7 +271,6 @@ a:focus {
     }
 }
 .btn-circle {
-
     width: 70px;
     height: 70px;
     margin-top: 15px;
@@ -271,6 +289,10 @@ a:focus {
     outline: 0;
     color: #fff;
     background: rgba(255,255,255,.1);
+}
+
+.btn:focus {
+  outline: 0;
 }
 
 .btn-circle i.animated {
@@ -336,6 +358,11 @@ a:focus {
     -webkit-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
 }
+
+a.btn:after {
+    display: none;
+}
+
 
 .btn-default {
     border: 1px solid #42dca3;
@@ -468,7 +495,7 @@ body {
 }
 #sponsors{
     /*background: url("../img/purple.png");*/
-    background-color: #559efc;
+    background-color: #3aafea;
 }
 #footer{
     background-color:#00000f;
@@ -638,7 +665,11 @@ body {
 
 .tinysponsorimg.berkeley {
     width: auto;
-    height: 100px;
+    height: 120px;
+}
+
+#sponsors .row a:after {
+  display: none;
 }
 
 #second{
