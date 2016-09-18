@@ -82,6 +82,10 @@ a:after {
     transition: all 300ms ease-in-out;
 }
 
+a.navbar-brand:after {
+    display: none;
+}
+
 a:hover,
 a:focus {
     outline: 0;
