@@ -291,7 +291,9 @@ a:focus:after {
     background: rgba(255,255,255,.1);
 }
 
-.btn:focus {
+.btn:focus,
+.btn.btn-danger:active,
+.btn.active:focus{
   outline: 0;
 }
 
