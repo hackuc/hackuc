@@ -657,7 +657,7 @@ body {
 }
 
 .tinysponsorimg{
-    width:15%;
+    width: 150px;
     height:auto;
     margin: 20px;
     display:inline-block;
@@ -682,6 +682,14 @@ body {
 
 .tinysponsorimg.berkeley {
     width: 310px;
+}
+
+.tinysponsorimg.clubmate {
+    width: 230px;
+}
+
+.tinysponsorimg.balsamiq {
+    width: 250px;
 }
 
 .tinysponsorimg.ladym {
