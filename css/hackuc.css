@@ -64,7 +64,7 @@ p {
 }
 
 a {
-    color: #086bad;
+    color: #eee;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -73,7 +73,7 @@ a:after {
     content: "";
     position: absolute;
     display: block;
-    background-color: #086bad;
+    background-color: #eee;
     height: 2px;
     width: 0;
     bottom: -2px;
@@ -86,11 +86,16 @@ a.navbar-brand:after {
     display: none;
 }
 
+a.with-hover-text:hover:after,
+a.with-hover-text:focus:after {
+    width: 100%;
+}
+
 a:hover,
 a:focus {
     outline: 0;
     text-decoration: none;
-    color: #086bad;
+    color: #eee;
 }
 
 a:hover:after,
@@ -657,7 +662,7 @@ body {
 }
 
 .tinysponsorimg{
-    width:15%;
+    width: 150px;
     height:auto;
     margin: 20px;
     display:inline-block;
@@ -667,6 +672,14 @@ body {
     cursor: pointer;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+}
+
+.sponsor-tier {
+  font-weight: 800;
+}
+
+.non-bronze {
+  margin-top: 1em;
 }
 
 .tinysponsorimg:hover,
@@ -684,12 +697,24 @@ body {
     width: 310px;
 }
 
+.tinysponsorimg.clubmate {
+    width: 230px;
+}
+
+.tinysponsorimg.balsamiq {
+    width: 250px;
+}
+
 .tinysponsorimg.ladym {
     width: 12%;
 }
 
 #sponsors .row a:after {
   display: none;
+}
+
+#sponsors .row a.with-hover-text:after {
+  display: block;
 }
 
 #second{

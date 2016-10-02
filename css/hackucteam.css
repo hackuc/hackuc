@@ -61,13 +61,13 @@ span.name {
     font-weight: 700;
     display:block;
     float: right;
-    margin: 55px 35px 5px 0px;
+    margin: 55px 30px 5px 0px;
 }
 
 span.title {
     display:block;
     float:right;
-    margin: 0px 25px 5px 0px;
+    margin: 0px 30px 5px 0px;
     font-size:15px;
 }
 
