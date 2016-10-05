@@ -64,7 +64,7 @@ p {
 }
 
 a {
-    color: #eee;
+    color: white;
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
 }
@@ -73,7 +73,7 @@ a:after {
     content: "";
     position: absolute;
     display: block;
-    background-color: #eee;
+    background-color: white;
     height: 2px;
     width: 0;
     bottom: -2px;
@@ -82,26 +82,31 @@ a:after {
     transition: all 300ms ease-in-out;
 }
 
-a.navbar-brand:after {
-    display: none;
-}
-
-a.with-hover-text:hover:after,
-a.with-hover-text:focus:after {
-    width: 100%;
-}
-
 a:hover,
 a:focus {
     outline: 0;
     text-decoration: none;
-    color: #eee;
+    color: white;
 }
 
 a:hover:after,
 a:focus:after {
     width: 100%;
 }
+
+#faq a,
+#faq a:hover {
+    color: #4f9656;
+}
+
+#faq a:after {
+    background-color: #4f9656;
+}
+
+a.navbar-brand:after {
+    display: none;
+}
+
 
 .light {
     font-weight: 300;
