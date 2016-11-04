@@ -710,8 +710,12 @@ body {
     width: 250px;
 }
 
-.tinysponsorimg.ladym {
-    width: 12%;
+.tinysponsorimg.local {
+  width: 11%;
+}
+
+.tinysponsorimg.local.squareImg {
+  width: 9%;
 }
 
 #sponsors .row a:after {
