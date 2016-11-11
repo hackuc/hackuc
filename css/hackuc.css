@@ -654,7 +654,6 @@ body {
 
 
 .sponsorimg{
-    width:20%;
     height:auto;
     margin:auto;
     display:block;
@@ -693,6 +692,14 @@ body {
 }
 
 /* Sponsor Sizing */
+.sponsorimg.rectangle {
+  width: 35%; 
+}
+
+.sponsorimg.square {
+  width: 20%; 
+}
+
 .tinysponsorimg.bronze {
     width: 300px;
     height: auto;
@@ -703,7 +710,7 @@ body {
 }
 
 .tinysponsorimg.clubmate {
-    width: 230px;
+    width: 200px;
 }
 
 .tinysponsorimg.balsamiq {
