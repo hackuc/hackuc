@@ -701,16 +701,11 @@ body {
 }
 
 .tinysponsorimg.bronze {
-    width: 300px;
     height: auto;
 }
 
 .tinysponsorimg.berkeley {
     width: 310px;
-}
-
-.tinysponsorimg.clubmate {
-    width: 200px;
 }
 
 .tinysponsorimg.balsamiq {
@@ -723,6 +718,14 @@ body {
 
 .tinysponsorimg.local.squareImg {
   width: 9%;
+}
+
+.tinysponsorimg.bronze.squareImg {
+  width: 220px;
+}
+
+.tinysponsorimg.bronze.rectangleImg {
+  width: 300px;
 }
 
 #sponsors .row a:after {
