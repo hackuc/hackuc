@@ -13,7 +13,7 @@ $(window).scroll(function() {
     }
 });
 //jQuery for timeline
-                $('#2016').click(function(e) {
+                $('#2017').click(function(e) {
                     e.preventDefault();
                     if($("#2015").hasClass("active")){
                         $("#first").toggle();
@@ -21,7 +21,7 @@ $(window).scroll(function() {
                         $(".boxedbutton").toggle();
                     }
                     $("#2015").removeClass("active");
-                    $("#2016").addClass("active");
+                    $("#2017").addClass("active");
                     
                     $('#circle').animate({
                         'left' : '51.7%'    
@@ -29,12 +29,12 @@ $(window).scroll(function() {
                 });
                 $('#2015').click(function(e) {
                     e.preventDefault();
-                    if($("#2016").hasClass("active")){
+                    if($("#2017").hasClass("active")){
                         $("#first").toggle();
                         $("#second").toggle();
                         $(".boxedbutton").toggle();
                     }
-                    $("#2016").removeClass("active");
+                    $("#2017").removeClass("active");
                     $("#2015").addClass("active");
                     
                     $('#circle').animate({

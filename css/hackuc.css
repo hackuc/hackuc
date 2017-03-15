@@ -114,7 +114,7 @@ a:after {
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
     -webkit-transition: all 300ms ease-in-out;
-    transition: all 300ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 a:hover,
@@ -670,13 +670,17 @@ body {
 }
 
 .contactimg {
- display: block;
+ display: inline-block;
  margin: auto;
  height: 100px;
  width: 100px;
 }
 
-.image:hover {
+.contact-images a:after {
+    display: none;
+}
+
+.contactimg:hover {
     opacity: 0.5;
 }
 
