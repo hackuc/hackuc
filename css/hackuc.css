@@ -24,8 +24,9 @@ html {
 }
 
 .poly-section {
-  background-position: cover;
+  background-size: cover;
   background-attachment: fixed !important;
+  background-repeat: no-repeat;
 }
 
 .content-section {
@@ -110,7 +111,9 @@ a:after {
     width: 0;
     bottom: -2px;
     left: 50%;
-    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 
@@ -420,25 +423,20 @@ a.btn:after {
 
 .infoContainer {
     display:-webkit-box;
-    display:-webkit-flex;
     display:-ms-flexbox;
     display: flex;
     width: 100%;
     height: 40vh;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
     -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
     -webkit-box-align: center;
-    -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
     margin-top: 5%;
@@ -513,17 +511,17 @@ body {
 }
 
 #faq {
-    background: url("../img/green.png");
+    background-image: url("../img/green.png");
 }
 
 #schedule {
     /*background-color: #70D3DF;*/
-    background: url("../img/blue.png");
+    background-image: url("../img/blue.png");
 }
 
 #contact {
     /*background-color: #F26BA3;*/
-    background: url("../img/purple.png")
+    background-image: url("../img/purple.png")
 }
 
 #about {
@@ -536,7 +534,8 @@ body {
 
 #sponsors {
     /*background: url("../img/purple.png");*/
-    background-color: #3aafea;
+    /*background-color: #3aafea;*/
+    background-color: white;
 }
 
 #footer {
@@ -737,10 +736,11 @@ body {
   margin-top: 1em;
 }
 
+/* Sponsor image hover effect
 .tinysponsorimg:hover,
 .sponsorimg:hover {
     background-color: rgba(255, 255, 255, 0.9);
-}
+}*/
 
 @media(max-width: 768px) {
     .tinysponsorimg {
@@ -813,7 +813,12 @@ body {
 }
 
 #sponsors .row a.with-hover-text:after {
-  display: block;
+    background-color: #0090f0;
+      display: block;
+}
+
+#sponsors .row a.with-hover-text {
+    color: #0090f0;
 }
 
 #second {
