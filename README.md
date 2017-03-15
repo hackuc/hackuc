@@ -1,5 +1,5 @@
 # HackUC 2016
 
-Official 2016 HackUC hackathon website.  
+Official 2017 HackUC hackathon website.  
 
 [hackuc.com](http://hackuc.com)
