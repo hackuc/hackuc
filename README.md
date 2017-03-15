@@ -1,4 +1,4 @@
-# HackUC 2016
+# HackUC II
 
 Official 2017 HackUC hackathon website.  
 
