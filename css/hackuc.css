@@ -467,6 +467,9 @@ ul.banner-social-buttons {
     .infoContainer {
         margin-top: 10% !important;
     }
+  .tinylogoimg {
+    margin-top: 10px !important;
+  }
 }
 
 ::-moz-selection {
@@ -681,8 +684,8 @@ body {
 .tinylogoimg {
     width: 15%;
     height: auto;
-    margin: auto;
-    display: block;
+    margin: auto 30px;
+    display: inline-block;
     margin-bottom: 7%;
     margin-top: 25%;
 }
@@ -949,13 +952,12 @@ input {
 
 .social {
     position: fixed;
-    top: 70px;
+    bottom: 20px;
     right: 150px;
     max-width: 70px;
-    width: 10%;
     min-width: 20px;
     display: block;
-    z-index: 10001;
+    z-index: 9;
 }
 
 @media screen and (max-width: 700px) {
