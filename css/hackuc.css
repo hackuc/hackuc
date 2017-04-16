@@ -461,15 +461,21 @@ ul.banner-social-buttons {
     ul.banner-social-buttons li:last-child {
         margin-bottom: 0;
     }
+    .navbar-custom .nav li a:focus:after, .navbar-custom .nav li a:hover:after {
+        display: none;
+    }
+    .navbar-custom .nav li a:focus, .navbar-custom .nav li a:hover {
+        background-color: rgba(100, 100, 100, 0.5);
+    }
 }
 
 @media(max-width: 990px) {
     .infoContainer {
         margin-top: 10% !important;
     }
-  .tinylogoimg {
-    margin-top: 10px !important;
-  }
+    .tinylogoimg {
+        margin-top: 10px !important;
+    }
 }
 
 ::-moz-selection {
