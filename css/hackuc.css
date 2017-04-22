@@ -703,9 +703,9 @@ body {
     max-width: 300px;
     height: auto;
     margin: auto;
-    display: block;
+    display: inline-block;
     margin-bottom: 3%;
-    margin-top: 3%;
+    margin-top: 0;
     padding: 20px;
     border-radius: 4px;
     -webkit-transition: all 300ms ease-in-out;
@@ -773,12 +773,13 @@ body {
 /* Sponsor Sizing */
 
 
-/*
-.sponsorimg.rectangle {
-  width: 35%;
-}
 
 .sponsorimg.square {
+  width: 400px !important;
+  margin-right: 50px;
+}
+/*
+.sponsorimg.rectangle {
   width: 20%;
 }
 
@@ -962,8 +963,8 @@ input {
 .social {
     position: fixed;
     bottom: 20px;
-    right: 150px;
-    max-width: 70px;
+    right: 20px;
+    max-width: 200px;
     min-width: 20px;
     display: block;
     z-index: 9;
@@ -974,4 +975,17 @@ input {
         visibility: hidden;
         display: none;
     }
+    .sponsorimg.square {
+        margin-right: 0;
+    }
 }
+
+#twitter-widget-0 {
+  float: right;
+}
+
+.fb_iframe_widget {
+  float:right;
+  margin-bottom: 5px;
+}
+
