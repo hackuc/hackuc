@@ -702,14 +702,20 @@ body {
 .sponsorimg {
     max-width: 300px;
     height: auto;
-    margin: auto;
+    margin: 0 auto;
     display: block;
     margin-bottom: 3%;
-    margin-top: 3%;
-    padding: 20px;
     border-radius: 4px;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+}
+
+.sponsorimg.arkio {
+    max-width: 400px;
+}
+
+.sponsorimg.ucvts {
+    max-width: 250px;
 }
 
 #gep.sponsorimg {
@@ -771,20 +777,6 @@ body {
 
 
 /* Sponsor Sizing */
-
-
-/*
-.sponsorimg.rectangle {
-  width: 35%;
-}
-
-.sponsorimg.square {
-  width: 20%;
-}
-
-.tinysponsorimg.bronze {
-    height: auto;
-}*/
 
 .tinysponsorimg.berkeley {
     width: 310px;
