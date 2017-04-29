@@ -702,16 +702,18 @@ body {
 .sponsorimg {
     max-width: 300px;
     height: auto;
-    margin: 0 auto;
-    display: block;
+    margin: auto;
+    display: inline-block;
     margin-bottom: 3%;
+    margin-top: 0;
+    padding: 20px;
     border-radius: 4px;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
 }
 
 .sponsorimg.arkio {
-    max-width: 400px;
+    max-width: 700px;
 }
 
 .sponsorimg.ucvts {
@@ -759,7 +761,8 @@ body {
     .tinysponsorimg.bronze {
         width: 50%;
     }
-    .sponsorimg {
+    .sponsorimg, .sponsorimg.arkio {
+        max-width: 300px;
         width: 90%;
         margin: 0 auto 1em;
     }
@@ -954,8 +957,8 @@ input {
 .social {
     position: fixed;
     bottom: 20px;
-    right: 150px;
-    max-width: 70px;
+    right: 20px;
+    max-width: 200px;
     min-width: 20px;
     display: block;
     z-index: 9;
@@ -966,4 +969,16 @@ input {
         visibility: hidden;
         display: none;
     }
+    .sponsorimg.square {
+        margin-right: 0;
+    }
+}
+
+#twitter-widget-0 {
+    float: right;
+}
+
+.fb_iframe_widget {
+    float: right;
+    margin-bottom: 5px;
 }
