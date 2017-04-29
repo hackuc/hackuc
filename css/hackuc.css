@@ -704,7 +704,6 @@ body {
     height: auto;
     margin: auto;
     display: inline-block;
-    margin-bottom: 3%;
     margin-top: 0;
     padding: 20px;
     border-radius: 4px;
@@ -713,7 +712,7 @@ body {
 }
 
 .sponsorimg.arkio {
-    max-width: 700px;
+    max-width: 600px;
 }
 
 .sponsorimg.ucvts {
