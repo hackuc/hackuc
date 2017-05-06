@@ -713,6 +713,7 @@ body {
 
 .sponsorimg.arkio {
     max-width: 600px;
+    padding-top: 0;
 }
 
 .sponsorimg.ucvts {
