@@ -745,6 +745,9 @@ body {
     margin-top: 1em;
 }
 
+.sponsorimg.squareImg {
+  max-width: 250px !important;
+}
 
 /* Sponsor image hover effect
 .tinysponsorimg:hover,
@@ -780,6 +783,10 @@ body {
 
 
 /* Sponsor Sizing */
+
+.tinysponsorimg.local.squareImg {
+  width: 125px;  
+}
 
 .tinysponsorimg.berkeley {
     width: 310px;
