@@ -727,7 +727,7 @@ body {
 .tinysponsorimg {
     width: 150px;
     height: auto;
-    margin: 20px;
+    margin: 12px;
     display: inline-block;
     margin-bottom: 2%;
     padding: 10px;
@@ -735,6 +735,10 @@ body {
     cursor: pointer;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
+}
+
+.tinysponsorimg {
+    width: 170px;
 }
 
 .sponsor-tier {
@@ -746,8 +750,9 @@ body {
 }
 
 .sponsorimg.squareImg {
-  max-width: 250px !important;
+    max-width: 250px !important;
 }
+
 
 /* Sponsor image hover effect
 .tinysponsorimg:hover,
@@ -785,7 +790,7 @@ body {
 /* Sponsor Sizing */
 
 .tinysponsorimg.local.squareImg {
-  width: 125px;  
+    width: 125px;
 }
 
 .tinysponsorimg.berkeley {
