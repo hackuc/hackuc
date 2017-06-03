@@ -711,6 +711,10 @@ body {
     transition: all 300ms ease-in-out;
 }
 
+.gold {
+    width: 33%;
+}
+
 .sponsorimg.arkio {
     max-width: 600px;
     padding-top: 0;
@@ -725,7 +729,7 @@ body {
 }
 
 .tinysponsorimg {
-    width: 150px;
+    width: 170px;
     height: auto;
     margin: 12px;
     display: inline-block;
@@ -737,8 +741,8 @@ body {
     transition: all 300ms ease-in-out;
 }
 
-.tinysponsorimg {
-    width: 170px;
+.connectone-bank {
+    width: 250px;
 }
 
 .sponsor-tier {
@@ -766,11 +770,19 @@ body {
         width: 30%;
         margin: 0 auto 1em;
     }
+    .tinysponsorimg.connectone-bank {
+        width: 45%;
+    }
     .tinysponsorimg.bronze {
         width: 50%;
     }
-    .sponsorimg, .sponsorimg.arkio {
+    .sponsorimg, #gep.sponsorimg {
         max-width: 300px;
+        width: 90%;
+        margin: 0 auto 1em;
+    }
+    .sponsorimg.arkio {
+        max-width: 400px;
         width: 90%;
         margin: 0 auto 1em;
     }
