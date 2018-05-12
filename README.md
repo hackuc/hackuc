@@ -1,5 +1,5 @@
-# HackUC II
+# HackUC III
 
-Official 2017 HackUC hackathon website.  
+Official 2018 HackUC hackathon website.  
 
 [hackuc.com](http://hackuc.com)
