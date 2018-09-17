@@ -195,3 +195,10 @@ img.icon {
     background-color: #e6e6e6;
     border-color: #adadad;
 }
+
+.teamPlaceholder {
+    text-align: center;
+    border: 1px;
+    background-color: white;
+    font-size: 2rem;
+}
