@@ -544,9 +544,14 @@ body {
     background-color: #98DB40;
 }
 
-#sponsors {
+#sponsors-area {
     background: url("../img/purple.png");
     background-color: #3aafea;
+}
+
+#sponsor-image {
+    width: 200px;
+    height: auto;
 }
 
 #footer {
