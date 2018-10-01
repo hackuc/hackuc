@@ -549,8 +549,9 @@ body {
     background-color: #3aafea;
 }
 
-#sponsor-image {
-    width: 200px;
+.sponsor-image {
+    width: 15%;
+    padding: 2rem;
     height: auto;
 }
 
