@@ -483,9 +483,6 @@ ul.banner-social-buttons {
     .navbar-custom .nav li a:hover {
         background-color: rgba(100, 100, 100, 0.5);
     }
-    #sponsors br {
-        display: none;
-    }
 }
 
 @media(max-width: 990px) {
@@ -548,9 +545,8 @@ body {
 }
 
 #sponsors {
-    /*background: url("../img/purple.png");*/
-    /*background-color: #3aafea;*/
-    background-color: white;
+    background: url("../img/purple.png");
+    background-color: #3aafea;
 }
 
 #footer {
